@@ -28,3 +28,10 @@ Stay connected and join the community:
 ## ⚠️ Disclaimer
 
 $MYBIE is a meme token with no intrinsic value or expectation of financial return. There is no formal team or roadmap. The coin is completely for entertainment purposes only. Hold your blade responsibly! ⚔️🔥
+---
+
+## Official Brand Documentation
+
+The official reference for MYBIE SWORD's identity, philosophy, brand structure, core standards, and long-term vision.
+
+[Read Official Brand Concept & Project Philosophy](docs/BRAND_CONCEPT.md)
