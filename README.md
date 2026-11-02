@@ -33,4 +33,4 @@ $MYBIE is a meme token with no intrinsic value or expectation of financial retur
 ## Official Brand Documentation
 
 The official reference for MYBIE SWORD's identity, philosophy, brand structure, core standards, and long-term vision.
-
+[Read Official Brand Concept & Project Philosophy](./BRAND_CONCEPT.md)
