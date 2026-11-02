@@ -91,7 +91,7 @@ Always conduct your own research before making financial decisions.
 
 For the complete brand philosophy and identity guidelines, see:
 
-"MYBIE SWORD — Official Brand Concept & Project Philosophy" (./BRAND_CONCEPT.md)
+"MYBIE SWORD — Official Brand Concept & Project Philosophy" [Read Official Brand Concept & Project Philosophy](./BRAND_CONCEPT.md)
 
 ---
 
