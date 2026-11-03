@@ -1,115 +1,136 @@
-⚔️ MYBIE SWORD — Roadmap
+# ⚔️ MYBIE SWORD — Development Roadmap
 
-1. Introduction
+## 1. Purpose and Status Legend
 
-This roadmap outlines the planned development direction of MYBIE SWORD and its first project, $MYBIE.
+This roadmap describes the intended development direction of MYBIE SWORD and its first project, $MYBIE. It is a planning document, not a promise of dates, outcomes, token prices, listings, partnerships, or returns.
 
-Our approach is gradual, transparent, and focused on sustainable development.
+Statuses are evidence-based:
+- **Established (documentation):** The relevant public policy or project document exists.
+- **In progress:** Work has started but is not complete or verified.
+- **Pending verification:** The project must confirm implementation or provide evidence.
+- **Not started / future consideration:** No verified implementation is being claimed.
 
-The roadmap represents development intentions, not guaranteed outcomes or fixed deadlines. Priorities may change depending on project progress, available resources, and community needs.
+A documentation milestone does not mean the corresponding operational control is active.
 
-Our philosophy:
+## 2. Phase One — Foundation and Identity
 
-One House. Multiple Sword Coins. One Standard.
+**Objective:** Establish the identity, principles, and initial public documentation.
 
-More Memes. Bigger Dreams.
+| Workstream | Current status | Notes |
+| --- | --- | --- |
+| MYBIE SWORD identity and brand concept | Established (documentation) | Brand concept and visual identity guidance are published. |
+| Vision and core principles | Established (documentation) | Published in the project overview and README. |
+| Official communication channels | Published | Channel names and links are listed in the README; account security still requires operational review. |
+| Core project documentation | Established (documentation) | Main project, community, contribution, governance, and security documents are present. |
+| Operational security controls | Pending verification | Written procedures exist; actual account, wallet, and access controls must be checked. |
 
-2. Phase One — Foundation & Identity
+## 3. Phase Two — $MYBIE Launch Preparation
 
-Objective: Establish the foundation of MYBIE SWORD.
+**Objective:** Prepare the first project for a transparent and carefully reviewed launch on Solana.
 
-Key priorities:
+| Workstream | Current status | Required evidence before completion |
+| --- | --- | --- |
+| Launch platform and process | Pending verification | Confirm final platform, configuration, and launch procedure. |
+| Token distribution approach | Pending verification | Confirm actual settings and ensure they match published commitments. |
+| Project wallet structure and security | Pending verification | Document wallet purposes, authorized control, backup, and recovery arrangements without publishing secrets. |
+| Technical configuration review | Pending verification | Verify mint details, authorities, supply, and other applicable settings. |
+| Public launch information | Pending verification | Publish only confirmed details and relevant explorer links. |
+| Operational incident readiness | In progress (documentation) | Security procedures are documented; contact paths and recovery steps still need practical testing. |
 
-- Establish the MYBIE SWORD identity and brand concept.
-- Define the project's vision, philosophy, and core principles.
-- Establish official communication channels.
-- Create public project documentation.
-- Define security, transparency, honesty, responsibility, and accountability standards.
+All public distribution commitments must match the actual launch configuration and on-chain activity. Do not describe them as verified until evidence is available.
 
-3. Phase Two — $MYBIE Launch Preparation
+## 4. Phase Three — Launch and Transparency
 
-Objective: Prepare the first project under the MYBIE SWORD identity.
+**Objective:** Introduce $MYBIE with accurate, accessible, and verifiable information.
 
-Key priorities:
+Launch-related work remains **pending verification** until launch has actually occurred and the relevant evidence is public.
 
-- Prepare the $MYBIE launch process on Solana.
-- Establish the token distribution approach.
-- Prepare project wallet security practices.
-- Review launch configuration and relevant technical details.
-- Communicate important project information through official channels.
+Required work after launch, where applicable:
+- Publish the verified token mint address.
+- Publish relevant token and authority information.
+- Explain the actual distribution mechanism.
+- Disclose relevant project-controlled wallet addresses where safe and appropriate.
+- Link to public blockchain records supporting material claims.
+- Monitor significant holder and wallet movements using clearly described methods.
+- Communicate material changes, corrections, and incidents through official channels.
 
-All public distribution commitments must be reflected in the actual launch configuration.
+Do not imply that monitoring is automated, continuous, or comprehensive unless that capability has been implemented and tested.
 
-4. Phase Three — Launch & Transparency
+## 5. Phase Four — Community Development
 
-Objective: Introduce $MYBIE to the public with clear and accessible information.
+**Objective:** Build a responsible community with clear moderation and communication standards.
 
-Key priorities:
+| Workstream | Current status | Notes |
+| --- | --- | --- |
+| Community rules | Established (documentation) | Guidelines include safety, moderation, reporting, and appeals. |
+| Moderator role definition | Established (documentation) | Role is defined for future appointment; this does not mean moderators are currently staffed. |
+| Team structure | Established (documentation) | Planned functions and authority limits are documented. |
+| Moderator appointment and training | Not started / pending confirmation | Appointments and training must be confirmed before describing a team as active. |
+| Moderation and incident workflow | Pending practical testing | Written procedures require real operational ownership and testing. |
 
-- Launch $MYBIE.
-- Publish verified token and Smart Contract information when available.
-- Provide access to relevant public blockchain information.
-- Monitor significant holder and wallet movements.
-- Communicate important project updates transparently.
-- Address community questions through official channels.
+## 6. Phase Five — Ecosystem Development
 
-5. Phase Four — Community Development
+**Objective:** Evaluate future development based on the actual progress and capacity of the first project.
 
-Objective: Build a responsible and sustainable community.
+Future work may include:
+- Reviewing lessons learned from $MYBIE.
+- Evaluating additional Sword Coin opportunities.
+- Improving technology and operational infrastructure.
+- Considering partnerships when there is a clear purpose and adequate review.
+- Maintaining consistent standards across future initiatives.
 
-Key priorities:
+Future projects and an independent blockchain remain long-term possibilities, not current commitments. They will be evaluated individually and announced only when sufficiently defined and approved.
 
-- Develop community participation.
-- Establish clear community guidelines.
-- Define moderator responsibilities.
-- Improve communication and community management.
-- Encourage constructive discussion and responsible participation.
-- Maintain a respectful and transparent community environment.
+## 7. Release Readiness Gates
 
-6. Phase Five — Ecosystem Development
+The project should not describe itself as launch-ready until the relevant gates below have been checked and evidence recorded.
 
-Objective: Evaluate the long-term development of the MYBIE SWORD ecosystem.
+### Gate A — Project facts
+- Token configuration and distribution claims are confirmed.
+- Public statements match actual launch settings.
+- Material unknowns and risks are disclosed.
 
-Key priorities:
+### Gate B — Security
+- Critical accounts have strong unique passwords and MFA where supported.
+- Access is limited to authorized people.
+- Wallet purposes, control, and recovery arrangements are documented.
+- Incident contacts and response steps have been tested.
+- No secrets are stored in the repository or public channels.
 
-- Evaluate the progress and lessons learned from $MYBIE.
-- Explore future project opportunities under the MYBIE SWORD identity.
-- Maintain consistent standards across future initiatives.
-- Consider additional Sword Coin projects when resources and conditions allow.
-- Prioritize responsible development over unnecessary expansion.
+### Gate C — Governance
+- Decision owners and approval limits are explicit.
+- Financial and technical actions have appropriate review.
+- Team roles are accurately described as planned or active.
+- Conflicts of interest and material paid promotions are disclosed.
 
-Future projects will be evaluated individually and will not be announced as confirmed until they are ready.
+### Gate D — Community
+- Community rules and appeal route are published.
+- Official channels are verified.
+- Moderation responsibilities and escalation contacts are assigned.
+- No unsupported promises or misleading promotional claims are used.
 
-7. Development Principles
+A gate is complete only when implementation has been checked, not merely because a document exists.
 
-Every development phase follows these standards:
+## 8. Development Principles
 
-- Security: Protect project assets, systems, and community interests.
-- Transparency: Communicate verified information openly.
-- Honesty: Avoid misleading claims and unrealistic expectations.
-- Responsibility: Make decisions carefully and responsibly.
-- Accountability: Take responsibility for project actions and commitments.
+Every phase follows five standards:
+- Security.
+- Transparency.
+- Honesty.
+- Responsibility.
+- Accountability.
 
-8. Important Notice
+Priorities may change as project progress, available resources, and risks change. Changes should be reflected in the roadmap rather than hidden behind outdated claims.
 
-This roadmap is a general development guide.
+## 9. Risk Notice
 
-It does not guarantee specific launch dates, financial returns, token prices, exchange listings, partnerships, utilities, or future project outcomes.
+Cryptocurrency involves substantial risks, including the possibility of losing the entire amount invested. This roadmap does not guarantee launch dates, financial returns, token prices, exchange listings, partnerships, utilities, or future outcomes. Nothing in this document is financial advice.
 
-Development priorities may change as the project evolves.
+## 10. Our Commitment
 
-Cryptocurrency involves substantial risks, including the possibility of losing the entire amount invested.
+We will focus on building step by step, verifying what is implemented, and avoiding promises we cannot support.
 
-Always conduct your own research before making financial decisions.
+**We have nothing to hide. Transparency is not an option; it is our standard.**
 
-9. Our Commitment
-
-We believe that a strong ecosystem is built through consistent actions, responsible decisions, and transparent communication.
-
-We will focus on building step by step rather than making promises we cannot guarantee.
-
-We have nothing to hide. Transparency is not an option; it is our standard.
-
-⚔️ MYBIE SWORD
-
-More Memes. Bigger Dreams.
+⚔️ **MYBIE SWORD**  
+*More Memes. Bigger Dreams.*
