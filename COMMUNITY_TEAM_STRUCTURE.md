@@ -1,119 +1,101 @@
 # ⚔️ MYBIE SWORD — Community Team Structure
 
-## 1. Introduction
+## 1. Purpose and Current Status
 
-This document describes the **planned community team structure** for MYBIE SWORD.
+This document defines the planned functions for community and communications work.
 
-The structure is a framework for future operations. It does not mean that all teams or positions are currently staffed, active, or recruiting.
+**This is an organizational plan, not a statement that positions are currently staffed, active, or recruiting.** A role becomes active only when a person is explicitly appointed, briefed, and given defined permissions.
 
-Our goal is to build a responsible, active, and sustainable community without unnecessary organizational complexity.
+The project should remain lean. Functions may be combined when appropriate, but sensitive permissions must remain restricted.
 
-We believe that a strong team is built through clear responsibilities, effective coordination, and consistent execution.
+## 2. Planned Functions
 
-**One House. Multiple Sword Coins. One Standard.**
+The intended functions are:
+1. Community Moderation
+2. Content and Creative Production
+3. Marketing and Partnerships
 
-## 2. Planned Team Functions
+These are functions, not promises of employment, compensation, investment access, or token allocation.
 
-The intended community structure has three main functions:
+## 3. Community Moderation
 
-1. Moderator Team
-2. Content Creator Team
-3. Marketing & Investor Relations Team
+When appointed, moderators may:
+- Welcome members and answer routine questions using approved information.
+- Maintain constructive discussions and apply the Community Guidelines.
+- Identify and report scams, phishing, impersonation, and abusive behavior.
+- Share approved announcements.
+- Escalate sensitive questions, complaints, and security incidents.
 
-These functions may be combined or introduced gradually. One person may temporarily handle more than one function when appropriate and safe to do so.
+Moderators may not independently make strategic, financial, token, legal, or technical decisions.
 
-## 3. Moderator Team
+## 4. Content and Creative Production
 
-**Main responsibility: Community management**
+When appointed, contributors may:
+- Create memes, graphics, videos, and educational content.
+- Follow the Visual Identity Guidelines.
+- Check factual claims and obtain approval before publishing from official accounts.
+- Confirm that submitted material is original or properly licensed.
 
-When established, the Moderator Team may be responsible for:
+Creative contributors do not automatically receive access to official accounts or project assets.
 
-- Managing the official Telegram community.
-- Supporting official-channel communication under approved access controls.
-- Welcoming and assisting community members.
-- Maintaining constructive discussion and engagement.
-- Enforcing the Community Guidelines.
-- Monitoring suspicious accounts, scams, and impersonation.
-- Sharing verified official announcements.
-- Reporting community issues and important developments.
+## 5. Marketing and Partnerships
 
-Moderators must not make unauthorized project announcements or financial promises.
+When appointed, this function may:
+- Plan disclosed and truthful awareness campaigns.
+- Conduct outreach to relevant communities and potential partners.
+- Coordinate approved collaborations.
+- Track campaign activity and report results honestly.
+- Ensure paid promotion, sponsorship, and material relationships are disclosed.
 
-## 4. Content Creator Team
+No representative may promise profits, token prices, listings, returns, or guaranteed outcomes; provide personalized investment advice; or imply a partnership is confirmed before written authorization.
 
-**Main responsibility: Creative content production**
+## 6. Appointment and Role Definition
 
-When established, the Content Creator Team may:
+Before a role becomes active, the project should record:
+- The person's authorized role and start date.
+- The responsibilities and decision limits.
+- The accounts, tools, and information they may access.
+- The person to whom they report.
+- Any compensation, confidentiality, or intellectual-property terms that apply.
+- The process for review, suspension, and removal of access.
 
-- Create memes and visual content.
-- Produce graphics, illustrations, and promotional designs.
-- Create short videos and other creative materials.
-- Maintain consistent brand identity.
-- Support communication campaigns with creative materials.
+A title alone does not grant authority. Permission must be explicit and limited to the minimum required.
 
-All published content must follow the project's brand identity and communication standards.
+## 7. Coordination and Approval
 
-## 5. Marketing & Investor Relations Team
+Routine work should follow approved guidelines. Official announcements, paid campaigns, partnership statements, token-related claims, and material policy changes require approval from the authorized project representative.
 
-**Main responsibility: Project awareness and external relations**
+When more than one function is active:
+1. Content prepares materials.
+2. The authorized reviewer checks factual accuracy and brand compliance.
+3. Marketing distributes approved material through permitted channels.
+4. Moderation handles community responses and escalates issues.
 
-When established, this function may:
-
-- Develop marketing strategies and promotional campaigns.
-- Expand project visibility and audience reach.
-- Build relationships with relevant communities and potential partners.
-- Explore partnership and collaboration opportunities.
-- Communicate accurate and verified project information.
-- Evaluate marketing activities and their effectiveness.
-
-Anyone performing this function must never promise guaranteed profits, manipulate investment decisions, or present speculation as confirmed information.
-
-## 6. Team Coordination
-
-When multiple functions are active, they should coordinate through a simple process:
-
-1. Content creators prepare approved creative materials.
-2. Marketing coordinates appropriate distribution and external outreach.
-3. Moderators manage community discussion and share verified announcements.
-
-Important announcements, campaigns, and community activities must use consistent, approved information.
-
-## 7. Authority and Limitations
-
-Team responsibilities are limited to specifically assigned functions.
+## 8. Security and Authority Boundaries
 
 No community team member is automatically authorized to:
-
 - Access project wallets, seed phrases, or private keys.
-- Make financial decisions on behalf of the project.
-- Change tokenomics or technical configurations.
-- Make unauthorized promises or commitments.
-- Announce unverified partnerships, listings, or project developments.
-- Represent personal opinions as official project statements.
+- Control treasury funds or sign blockchain transactions.
+- Change tokenomics, mint settings, or smart-contract configuration.
+- Change ownership or recovery settings of critical accounts.
+- Announce unverified listings, partnerships, token prices, or project developments.
+- Make binding commitments on behalf of MYBIE SWORD.
 
-Access to official accounts must be granted only when necessary, with appropriate security controls and the minimum permissions required.
+Official-account access must use individual accounts, multi-factor authentication where supported, and the minimum permissions necessary. Shared passwords should not be used where individual access controls are available.
 
-## 8. Team Principles
+## 9. Conflicts of Interest and Conduct
 
-Every team member is expected to follow these standards:
+Team members must disclose relevant financial interests, paid relationships, referral benefits, or other conflicts. They must not misuse community access, private information, project branding, or their position for personal gain.
 
-- Security
-- Transparency
-- Honesty
-- Responsibility
-- Accountability
+Concerns about misconduct should be escalated to the authorized project representative. Retaliation against good-faith reports is prohibited.
 
-Team members must act professionally, respect community members, and protect the reputation of MYBIE SWORD.
+## 10. Review and Removal
 
-## 9. Organizational Approach
+Roles and permissions should be reviewed periodically and whenever responsibilities change. Access must be revoked promptly when a person leaves a role or no longer needs it. Project-owned files, credentials, and materials must be returned or transferred securely.
 
-MYBIE SWORD prioritizes a lean and efficient structure.
+## 11. Final Statement
 
-Positions will be assigned based on actual project needs, capability, trust, and available resources. Additional positions or teams will only be considered when project growth and operational requirements justify them.
-
-## 10. Final Statement
-
-Effective teamwork is not measured by the number of positions, but by the quality of execution, responsibility, and coordination.
+Effective teamwork is measured by execution, responsibility, and coordination—not by the number of titles.
 
 **One House. Multiple Sword Coins. One Standard.**
 
