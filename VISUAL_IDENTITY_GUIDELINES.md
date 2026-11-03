@@ -1,12 +1,12 @@
-MYBIE SWORD — ASSET USAGE GUIDELINES
+# MYBIE SWORD — Visual Identity & Asset Usage Guidelines
 
-1. Purpose
+## 1. Purpose
 
 This document establishes the official guidelines for using MYBIE SWORD visual assets.
 
 Its purpose is to maintain visual consistency, protect brand identity, and ensure that every project under the MYBIE SWORD ecosystem uses the correct visual identity.
 
-2. Brand Structure
+## 2. Brand Structure
 
 MYBIE SWORD is the parent brand and ecosystem.
 
@@ -14,12 +14,12 @@ $MYBIE is the first Sword Coin under the MYBIE SWORD identity.
 
 The distinction is:
 
-- MYBIE SWORD: Parent brand and ecosystem identity.
-- $MYBIE: First token and coin-specific identity.
+- **MYBIE SWORD:** Parent brand and ecosystem identity.
+- **$MYBIE:** First token and coin-specific identity.
 
-One House. Multiple Sword Coins. One Standard.
+**One House. Multiple Sword Coins. One Standard.**
 
-3. MYBIE SWORD Primary Logo
+## 3. MYBIE SWORD Primary Logo
 
 The sword character logo is the official primary identity of MYBIE SWORD.
 
@@ -31,8 +31,6 @@ It represents:
 - Honor
 - Resilience
 
-Usage
-
 The primary logo should be used for:
 
 - Official MYBIE SWORD announcements.
@@ -41,17 +39,13 @@ The primary logo should be used for:
 - Community identity and official materials.
 - Future ecosystem-wide initiatives.
 
-Official asset:
+Official asset: [assets/brand/mybie-sword-logo.png](assets/brand/mybie-sword-logo.png)
 
-"assets/brand/mybie-sword-logo.png"
-
-4. $MYBIE Token Logo
+## 4. $MYBIE Token Logo
 
 The crowned penguin logo is the official visual identity of the $MYBIE token.
 
 It represents the first Sword Coin within the MYBIE SWORD ecosystem.
-
-Usage
 
 The token logo should be used for:
 
@@ -61,11 +55,9 @@ The token logo should be used for:
 - Token listings and token identification materials.
 - $MYBIE-specific graphics and publications.
 
-Official asset:
+Official asset: [assets/token/mybie-coin-logo.png](assets/token/mybie-coin-logo.png)
 
-"assets/token/mybie-coin-logo.png"
-
-5. Logo Separation
+## 5. Logo Separation
 
 The two logos have different purposes and should not be treated as interchangeable.
 
@@ -73,7 +65,7 @@ The two logos have different purposes and should not be treated as interchangeab
 - Use the penguin logo when communicating specifically about $MYBIE.
 - Both logos may appear together when explaining the relationship between the parent brand and its first token.
 
-6. Visual Integrity
+## 6. Visual Integrity
 
 To maintain brand consistency:
 
@@ -84,26 +76,21 @@ To maintain brand consistency:
 - Maintain sufficient visibility and contrast when placing logos on backgrounds.
 - Use the original official files whenever possible.
 
-7. Future Ecosystem Expansion
+## 7. Future Ecosystem Expansion
 
 MYBIE SWORD may introduce additional Sword Coins or projects in the future.
 
 Each future project may have its own visual identity while remaining under the MYBIE SWORD parent brand.
 
-All projects are expected to respect the shared ecosystem principles:
+All projects are expected to respect the shared ecosystem principles: security, transparency, honesty, responsibility, and accountability.
 
-- Security
-- Transparency
-- Honesty
-- Responsibility
-- Accountability
-
-8. Official Asset Repository
+## 8. Official Asset Repository
 
 All official visual assets should be maintained in the MYBIE SWORD GitHub repository.
 
 Current structure:
 
+```text
 assets/
 ├── README.md
 ├── brand/
@@ -112,17 +99,16 @@ assets/
 └── token/
     ├── README.md
     └── mybie-coin-logo.png
+```
 
 Any new official visual asset should be stored in an appropriate directory and documented accordingly.
 
-9. Final Statement
+## 9. Final Statement
 
 Visual identity is part of the MYBIE SWORD ecosystem's credibility.
 
 Every logo has its own role, every project has its own identity, and every initiative follows one shared standard.
 
-One House. Multiple Sword Coins. One Standard.
+**One House. Multiple Sword Coins. One Standard.**
 
-⚔️ MYBIE SWORD
-
-More Memes. Bigger Dreams.
+⚔️ **MYBIE SWORD**
