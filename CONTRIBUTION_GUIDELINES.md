@@ -1,137 +1,84 @@
-MYBIE SWORD — CONTRIBUTION GUIDELINES
+# MYBIE SWORD — Contribution Guidelines
 
-1. Purpose
+## 1. Purpose
 
-These guidelines explain how individuals can contribute to the MYBIE SWORD ecosystem.
+These guidelines explain how individuals may propose or contribute work to MYBIE SWORD. Contributions are welcome when they support the project responsibly and respect its principles.
 
-We welcome constructive ideas, responsible participation, and meaningful contributions that support the project's long-term development.
+Submitting work does not guarantee acceptance, payment, employment, token allocation, public credit, or a continuing role.
 
-Every contribution must respect the identity, principles, and standards of MYBIE SWORD.
+## 2. Contribution Areas
 
-2. Core Principles
+Possible contributions include:
+- **Community:** constructive participation, safety reports, and community support.
+- **Creative:** memes, graphics, video, and educational content.
+- **Documentation:** corrections, explanations, and organizational improvements.
+- **Technical:** issue reports, code proposals, and reviews of public technical information.
+- **Research:** sourced analysis relevant to project decisions.
 
-All contributors are expected to follow these principles:
+## 3. Submission Requirements
 
-- Security: Protect project systems, accounts, assets, and community members.
-- Transparency: Communicate contributions and relevant information clearly.
-- Honesty: Do not provide misleading information or make unsupported claims.
-- Responsibility: Take ownership of assigned tasks and decisions.
-- Accountability: Respect agreed responsibilities and remain answerable for actions.
+A proposal should include:
+1. A clear description of the proposed work.
+2. Its purpose and expected benefit.
+3. Supporting files, references, or evidence where relevant.
+4. Known risks, dependencies, and resource requirements.
+5. Any relevant financial interest, sponsorship, or third-party involvement.
+6. Confirmation that the submitter has the right to provide the material.
 
-3. Areas of Contribution
+Do not submit confidential information, credentials, private keys, seed phrases, or another person's personal data.
 
-Contributions may include:
+## 4. Review and Approval
 
-Community
+Authorized maintainers may approve, request changes, defer, or reject a proposal. Technical, financial, security-sensitive, or public-facing changes require review by the appropriate authorized person before implementation or publication.
 
-- Helping maintain a respectful community environment.
-- Supporting community discussions.
-- Reporting suspicious activity and impersonation attempts.
+No contributor may merge changes, publish official announcements, spend project funds, or make commitments unless explicitly authorized.
 
-Content and Creative Work
+## 5. Security and Access
 
-- Creating memes, graphics, videos, and educational content.
-- Following official visual identity guidelines.
-- Avoiding misleading promotional materials.
+Contributors must:
+- Use only accounts and tools they are authorized to access.
+- Follow least-privilege access requirements.
+- Never request or share seed phrases, private keys, passwords, recovery codes, or authentication codes.
+- Report suspected vulnerabilities privately to an authorized project contact rather than publishing exploitable details.
+- Avoid adding unknown dependencies, scripts, or executable files without review.
+- Never upload secrets or personal data to the repository.
 
-Documentation
+Access may be limited, suspended, or revoked when no longer required.
 
-- Suggesting improvements to public documentation.
-- Identifying outdated or incorrect information.
-- Proposing clearer explanations and organizational improvements.
+## 6. Ownership, Licensing, and Attribution
 
-Technical Contributions
+Contributors must submit only work they created or are legally permitted to use. Third-party material must comply with its license and attribution requirements.
 
-- Reporting technical issues.
-- Reviewing publicly available technical information.
-- Proposing improvements to project infrastructure.
+Before a contribution is used publicly or incorporated into project materials, the project and contributor should agree in writing on:
+- Whether the contributor retains ownership.
+- What license or permission the project receives.
+- Whether the project may edit, reproduce, distribute, or adapt the work.
+- Whether attribution is required and how it will appear.
+- Whether compensation applies, and its amount and conditions, if any.
 
-Technical changes must be reviewed and authorized before implementation.
+**No automatic transfer of ownership is created merely by submitting a contribution.** If no written permission or license has been agreed, the project should not assume it has unrestricted rights to publish or reuse the work.
 
-4. Submission Process
+This document is not a substitute for a formal legal agreement where one is needed.
 
-Contributors should follow these steps:
+## 7. Conduct and Conflicts of Interest
 
-1. Clearly describe their idea, proposal, or contribution.
-2. Explain its purpose and expected benefit.
-3. Provide supporting materials when relevant.
-4. Identify any risks, dependencies, or resource requirements.
-5. Submit the contribution through an official communication channel.
+Contributors must communicate respectfully, provide accurate information, disclose relevant conflicts, and avoid presenting personal opinions as official statements.
 
-Submitting a proposal does not automatically mean it will be accepted.
+Paid endorsements, referral benefits, sponsorships, and other material relationships must be disclosed. Misleading promotional claims and unauthorized token-related promises are prohibited.
 
-5. Review and Approval
+## 8. Credit and Compensation
 
-All contributions are subject to review.
+Credit and compensation are not automatic. Any payment, reward, reimbursement, or attribution must be agreed explicitly before the work is relied upon. Do not imply that a contribution creates entitlement to tokens, profits, or future employment.
 
-The project maintainers or authorized representatives may:
+## 9. Changes and Disputes
 
-- Approve a contribution.
-- Request clarification or revisions.
-- Postpone consideration.
-- Reject a contribution that does not meet project standards.
+These guidelines may be updated as the project develops. Questions about a contribution, attribution, permission, or use of submitted work should be raised through an official channel before publication or reuse.
 
-Approval authority depends on the nature and potential impact of the proposed change.
+## 10. Final Statement
 
-No contributor may independently claim authority to represent or make binding decisions for MYBIE SWORD without authorization.
+Every contribution matters, but every contribution must respect the rights of its creator and the standards of MYBIE SWORD.
 
-6. Security and Access
+**One House. Multiple Sword Coins. One Standard.**
 
-Security must remain a priority throughout the contribution process.
-
-Contributors must never:
-
-- Request or share wallet seed phrases or private keys.
-- Publish passwords, recovery codes, API keys, or confidential credentials.
-- Access project accounts or systems without authorization.
-- Modify official project resources without permission.
-- Use project access for personal benefit or unauthorized activities.
-
-Access should be limited to the permissions necessary for an assigned responsibility.
-
-7. Communication Standards
-
-All contributors are expected to:
-
-- Communicate respectfully.
-- Avoid harassment, threats, and discrimination.
-- Provide accurate information.
-- Disclose relevant conflicts of interest.
-- Avoid impersonating official administrators.
-- Use official channels for project-related communication.
-
-8. Ownership and Attribution
-
-Contributors should only submit materials they created or have permission to use.
-
-Third-party materials must respect applicable licenses, copyrights, and usage conditions.
-
-Contributions may be credited where appropriate.
-
-Submission of a contribution does not automatically grant the contributor ownership of the MYBIE SWORD brand, official accounts, or project assets.
-
-Any specific ownership or licensing arrangement must be agreed separately.
-
-9. Conflicts of Interest
-
-Contributors must disclose situations that could affect their objectivity or the interests of the project.
-
-Personal financial interests, undisclosed promotions, misleading endorsements, and unauthorized token-related activities must not be presented as official project decisions.
-
-10. Changes to These Guidelines
-
-MYBIE SWORD may update these guidelines as the ecosystem develops.
-
-Changes should be documented and communicated through official project channels.
-
-11. Final Statement
-
-MYBIE SWORD believes that a strong ecosystem is built through responsible participation, clear standards, and shared accountability.
-
-Every contribution matters, but every contribution must respect the principles that define the project.
-
-One House. Multiple Sword Coins. One Standard.
-
-⚔️ MYBIE SWORD
-
-More Memes. Bigger Dreams.
+⚔️ **MYBIE SWORD**  
+*More Memes. Bigger Dreams.*
