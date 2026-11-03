@@ -65,18 +65,21 @@ These principles are commitments, not guarantees of financial outcomes or absolu
 
 5. Project Documentation
 
-Explore our official project documentation:
+Explore the official MYBIE SWORD documentation:
 
-Document| Description
-"PROJECT OVERVIEW" (PROJECT_OVERVIEW.md)| Project identity, vision, principles, and development approach.
-"BRAND CONCEPT" (BRAND_CONCEPT.md)| Brand identity, philosophy, and symbolism.
-"ROADMAP" (ROADMAP.md)| Development direction and planned stages.
-"COMMUNITY GUIDELINES" (COMMUNITY_GUIDELINES.md)| Rules and standards for community members.
-"COMMUNITY TEAM STRUCTURE" (COMMUNITY_TEAM_STRUCTURE.md)| Community team responsibilities and coordination.
-"MODERATOR ROLE" (MODERATOR_ROLE.md)| Moderator duties, security practices, and authority limits.
+Project Foundation
+
+- "PROJECT OVERVIEW" (https://github.com/MYBIESWORD/-MYBIE-SWORD-/blob/main/PROJECT_OVERVIEW.md) — Project identity, vision, principles, and development approach.
+- "BRAND CONCEPT" (https://github.com/MYBIESWORD/-MYBIE-SWORD-/blob/main/BRAND_CONCEPT.md) — Brand identity, philosophy, and symbolism.
+- "ROADMAP" (https://github.com/MYBIESWORD/-MYBIE-SWORD-/blob/main/ROADMAP.md) — Development direction and planned stages.
+
+Community Management
+
+- "COMMUNITY GUIDELINES" (https://github.com/MYBIESWORD/-MYBIE-SWORD-/blob/main/COMMUNITY_GUIDELINES.md) — Community rules and standards.
+- "COMMUNITY TEAM STRUCTURE" (https://github.com/MYBIESWORD/-MYBIE-SWORD-/blob/main/COMMUNITY_TEAM_STRUCTURE.md) — Team responsibilities and coordination.
+- "MODERATOR ROLE" (https://github.com/MYBIESWORD/-MYBIE-SWORD-/blob/main/MODERATOR_ROLE.md) — Moderator duties, security practices, and authority limits.
 
 Documentation will be updated progressively as the project develops.
-
 6. Community & Team
 
 We believe that a strong ecosystem requires responsible participation and effective teamwork.
