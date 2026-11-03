@@ -80,7 +80,7 @@ Community Management
 - "MODERATOR ROLE" (https://github.com/MYBIESWORD/-MYBIE-SWORD-/blob/main/MODERATOR_ROLE.md) — Moderator duties, security practices, and authority limits.
 Documentation will be updated progressively as the project develops.
 
-  6. Community & Team
+6. Community & Team
 
 We believe that a strong ecosystem requires responsible participation and effective teamwork.
 
@@ -141,5 +141,13 @@ We have nothing to hide. Transparency is not an option; it is our standard.
 ⚔️ MYBIE SWORD
 
 More Memes. Bigger Dreams.
+
+One House. Multiple Sword Coins. One Standard.
+## Official Visual Assets
+
+MYBIE SWORD maintains separate visual identities for its parent brand and its first token.
+
+- **MYBIE SWORD Brand Logo:** `assets/brand/mybie-sword-logo.png`
+- **$MYBIE Token Logo:** `assets/token/mybie-coin-logo.png`
 
 One House. Multiple Sword Coins. One Standard.
