@@ -74,8 +74,9 @@ Explore the official MYBIE SWORD documentation:
 - [Brand Concept](BRAND_CONCEPT.md) — Brand identity, philosophy, and symbolism.
 - [Roadmap](ROADMAP.md) — Development direction and planned stages.
 - [Visual Identity Guidelines](VISUAL_IDENTITY_GUIDELINES.md) — Official logos and visual identity usage.
-- [Governance Framework](GOVERNANCE_FRAMEWORK.md) — Governance principles and authority boundaries.
-- [Contribution Guidelines](CONTRIBUTION_GUIDELINES.md) — How contributions are handled.
+- [Governance Framework](GOVERNANCE_FRAMEWORK.md) — Decision rights, approvals, and accountability.
+- [Security & Operational Procedures](SECURITY_OPERATIONS.md) — Account, wallet, access, and incident-response controls.
+- [Contribution Guidelines](CONTRIBUTION_GUIDELINES.md) — Contribution review, licensing, and access rules.
 
 ### Community Management
 
@@ -93,7 +94,7 @@ The following are the **planned community functions**. They describe the intende
 
 1. **Moderator Team** — Community management, official communication channels, member engagement, and community security.
 2. **Content Creator Team** — Memes, graphics, videos, and creative materials.
-3. **Marketing & Investor Relations Team** — Project awareness, external relationships, and accurate project communication.
+3. **Marketing & Partnerships** — Project awareness, disclosed promotion, and external relationships.
 
 These functions may be combined or introduced gradually according to project needs and available resources. Any assigned role must operate within clearly defined responsibilities and authority.
 
