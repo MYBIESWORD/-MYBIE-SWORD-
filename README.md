@@ -78,9 +78,9 @@ Community Management
 - "COMMUNITY GUIDELINES" (https://github.com/MYBIESWORD/-MYBIE-SWORD-/blob/main/COMMUNITY_GUIDELINES.md) — Community rules and standards.
 - "COMMUNITY TEAM STRUCTURE" (https://github.com/MYBIESWORD/-MYBIE-SWORD-/blob/main/COMMUNITY_TEAM_STRUCTURE.md) — Team responsibilities and coordination.
 - "MODERATOR ROLE" (https://github.com/MYBIESWORD/-MYBIE-SWORD-/blob/main/MODERATOR_ROLE.md) — Moderator duties, security practices, and authority limits.
-
 Documentation will be updated progressively as the project develops.
-6. Community & Team
+
+  6. Community & Team
 
 We believe that a strong ecosystem requires responsible participation and effective teamwork.
 
