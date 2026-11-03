@@ -1,8 +1,8 @@
 # ⚔️ MYBIE SWORD — Community Guidelines
 
-## 1. Purpose
+## 1. Purpose and Scope
 
-These guidelines establish the expected standards of conduct for everyone participating in the MYBIE SWORD community.
+These guidelines apply to all members, contributors, moderators, and representatives participating in official MYBIE SWORD community spaces.
 
 Our goal is to maintain a respectful, safe, transparent, and constructive environment.
 
@@ -10,75 +10,92 @@ Our goal is to maintain a respectful, safe, transparent, and constructive enviro
 
 ## 2. Respectful Participation
 
-All members are expected to:
+Members must:
+- Treat others respectfully, regardless of background or experience.
+- Disagree with ideas without attacking or harassing people.
+- Avoid hate speech, threats, bullying, doxxing, and targeted harassment.
+- Keep discussions relevant and constructive.
+- Respect moderator instructions that are consistent with these guidelines.
 
-- Treat others with respect, regardless of background or experience.
-- Discuss ideas and disagreements without harassment or personal attacks.
-- Avoid hate speech, threats, bullying, and deliberate provocation.
-- Keep discussions constructive and relevant to the community.
+## 3. Prohibited Activity
 
-## 3. No Scams or Impersonation
-
-The community does not tolerate:
-
+The following are not allowed:
 - Impersonating project administrators, moderators, or official accounts.
-- Fake giveaways, fraudulent promotions, or deceptive links.
-- Phishing attempts or attempts to steal wallet access.
-- Unsolicited messages claiming to provide official support or special access.
-
-Always verify announcements through the official channels listed in the project README.
+- Phishing, malware, malicious files, fake support, or wallet-draining links.
+- Fake giveaways, fraudulent promotions, or deceptive claims of special access.
+- Spam, flooding, repeated unsolicited promotion, or coordinated disruption.
+- Publishing another person's private information without permission.
+- Threats, harassment, hate speech, or unlawful content.
+- Presenting rumors, speculation, or personal opinions as official project statements.
+- Promising guaranteed profits, token prices, or investment outcomes.
 
 ## 4. Wallet and Personal Security
 
-- Never share your seed phrase or private keys with anyone.
-- Official administrators and moderators will never ask for your seed phrase or private keys.
-- Do not connect a wallet to unfamiliar or suspicious websites.
-- Verify URLs and account identities before taking action.
-- Be cautious of unsolicited direct messages, even when an account appears familiar.
+- Never share a seed phrase, private key, password, recovery code, or one-time authentication code.
+- Official administrators and moderators will never ask for wallet recovery credentials.
+- Treat unsolicited direct messages as untrusted, even when the sender appears familiar.
+- Verify account names and links through the official channels listed in the repository README.
+- Do not connect a wallet to an unfamiliar website or sign a transaction you do not understand.
+- Community members are responsible for their own wallet, device, and transaction decisions.
 
-Members are responsible for their own wallet security and transaction decisions.
+If credentials may have been exposed, stop interacting with the suspicious party and seek help from a trusted wallet/security resource. Never post the credentials in the community.
 
 ## 5. Honest Project Discussion
 
-- Do not present rumors, speculation, or unverified claims as official information.
-- Do not promise profits or guaranteed token prices.
-- Do not impersonate the project or claim authority you have not been given.
-- Share concerns and questions constructively.
-- Verify important information through official project communications.
+Members may ask difficult questions, criticize decisions, and raise concerns respectfully. Good-faith criticism is not, by itself, a violation.
 
-Nothing in community discussion is financial advice.
+Do not:
+- Misrepresent unverified claims as confirmed facts.
+- Claim to speak for MYBIE SWORD without authorization.
+- Offer or imply guaranteed returns.
+- Present community discussion as financial, legal, or tax advice.
+
+Only announcements published through verified official channels should be treated as official project communications.
 
 ## 6. Content and Promotion
 
-- Keep shared content relevant and lawful.
-- Do not spam, flood channels, or repeatedly post unsolicited promotions.
-- Do not distribute malicious files, suspicious links, or deceptive materials.
-- Do not use MYBIE SWORD branding in a way that falsely implies official endorsement.
+- Share lawful, relevant, and non-deceptive content.
+- Do not distribute suspicious links, executable files, or malicious material.
+- Do not use MYBIE SWORD branding in a way that falsely implies endorsement.
+- Disclose paid promotion, sponsorship, referral benefits, or other material interests.
+- Promotional activity may be limited or removed to protect the community.
 
-Promotional activity may be restricted by moderators to protect the community.
+## 7. Moderation Principles and Actions
 
-## 7. Moderation
+Moderation should be consistent, proportionate, documented when material, and focused on protecting the community.
 
-Moderators may issue reminders, remove harmful content, restrict participation, or remove accounts when necessary to protect the community.
+Depending on severity and urgency, authorized moderators may:
+1. Issue a reminder or warning.
+2. Remove specific content.
+3. Apply a temporary mute or restriction.
+4. Temporarily remove an account from a community space.
+5. Permanently remove an account for serious or repeated violations.
 
-Moderation actions should be proportionate and consistent with these guidelines. Questions about moderation may be raised through the official channels.
+Immediate action may be taken for credible scams, phishing, threats, malicious links, or active attempts to compromise members. Moderators should preserve relevant evidence where safe and avoid exposing private information.
 
-Moderators do not have authority to request wallet credentials, make financial commitments, or announce unverified project developments.
+Moderators must not use their authority to silence good-faith criticism, retaliate against members, solicit money, or make unauthorized project promises.
 
-## 8. Reporting Problems
+## 8. Reporting and Appeals
 
-If you encounter a suspected scam, impersonation, phishing attempt, or harmful behavior:
-
-1. Do not click suspicious links or share personal information.
-2. Preserve relevant account names, messages, and links where safe.
+To report a concern:
+1. Do not click suspicious links or confront a suspected scammer.
+2. Preserve relevant usernames, message links, timestamps, and screenshots where safe.
 3. Report the issue through an official project channel.
-4. Do not publicly share private information or sensitive wallet credentials.
+4. Never include seed phrases, private keys, passwords, or sensitive personal data.
 
-## 9. Updates
+A member affected by a moderation action may request a review through an official channel. The request should include the account name, approximate date, action taken, and a concise explanation. Do not post private details publicly.
 
-These guidelines may be updated as the community and project develop. Any changes should be communicated through official channels.
+Where practical, an authorized person who was not directly involved in the original decision should review the appeal. The review may uphold, modify, or reverse the action. Serious security restrictions may remain in place while the review is pending. An appeal does not guarantee reinstatement.
 
-## 10. Final Statement
+## 9. Privacy and Evidence
+
+Do not publish private conversations, personal data, identity documents, or sensitive account information without a legitimate reason and appropriate permission. Evidence submitted for a report should be shared only with people responsible for handling the issue.
+
+## 10. Updates
+
+These guidelines may be updated as the project develops. Material changes should be recorded in the repository and communicated through official channels.
+
+## 11. Final Statement
 
 A strong community is built through respect, responsibility, security, and honest communication.
 
