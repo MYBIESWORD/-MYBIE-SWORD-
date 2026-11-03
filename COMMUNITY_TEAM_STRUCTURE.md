@@ -1,107 +1,99 @@
-⚔️ MYBIE SWORD — Community Team Structure
+# ⚔️ MYBIE SWORD — Community Team Structure
 
-1. Introduction
+## 1. Introduction
 
-The MYBIE SWORD community operates through a simple and efficient team structure.
+This document describes the **planned community team structure** for MYBIE SWORD.
+
+The structure is a framework for future operations. It does not mean that all teams or positions are currently staffed, active, or recruiting.
 
 Our goal is to build a responsible, active, and sustainable community without unnecessary organizational complexity.
 
 We believe that a strong team is built through clear responsibilities, effective coordination, and consistent execution.
 
-Our philosophy:
+**One House. Multiple Sword Coins. One Standard.**
 
-One House. Multiple Sword Coins. One Standard.
+## 2. Planned Team Functions
 
-2. Team Structure
-
-The community consists of three main teams:
+The intended community structure has three main functions:
 
 1. Moderator Team
 2. Content Creator Team
 3. Marketing & Investor Relations Team
 
-Each team has specific responsibilities and works together to support the development of MYBIE SWORD and its first project, $MYBIE.
+These functions may be combined or introduced gradually. One person may temporarily handle more than one function when appropriate and safe to do so.
 
-3. Moderator Team
+## 3. Moderator Team
 
-Main Responsibility: Community Management
+**Main responsibility: Community management**
 
-The Moderator Team is responsible for managing official community channels and maintaining a safe and active environment.
-
-Responsibilities include:
+When established, the Moderator Team may be responsible for:
 
 - Managing the official Telegram community.
-- Managing and maintaining the official X account.
-- Welcoming and attracting new community members.
-- Answering questions and assisting community members.
-- Maintaining discussions and community engagement.
-- Enforcing Community Guidelines.
+- Supporting official-channel communication under approved access controls.
+- Welcoming and assisting community members.
+- Maintaining constructive discussion and engagement.
+- Enforcing the Community Guidelines.
 - Monitoring suspicious accounts, scams, and impersonation.
 - Sharing verified official announcements.
 - Reporting community issues and important developments.
 
-Moderators must communicate responsibly and must not make unauthorized project announcements or financial promises.
+Moderators must not make unauthorized project announcements or financial promises.
 
-4. Content Creator Team
+## 4. Content Creator Team
 
-Main Responsibility: Creative Content Production
+**Main responsibility: Creative content production**
 
-The Content Creator Team is responsible for producing creative materials that strengthen the MYBIE SWORD identity and support community communication.
+When established, the Content Creator Team may:
 
-Responsibilities include:
-
-- Creating memes and visual content.
-- Producing graphics, illustrations, and promotional designs.
-- Creating short videos and other creative materials.
-- Maintaining consistent brand identity.
-- Supporting marketing campaigns with creative materials.
+- Create memes and visual content.
+- Produce graphics, illustrations, and promotional designs.
+- Create short videos and other creative materials.
+- Maintain consistent brand identity.
+- Support communication campaigns with creative materials.
 
 All published content must follow the project's brand identity and communication standards.
 
-5. Marketing & Investor Relations Team
+## 5. Marketing & Investor Relations Team
 
-Main Responsibility: Project Promotion and External Relations
+**Main responsibility: Project awareness and external relations**
 
-This team is responsible for expanding project awareness and building professional relationships.
+When established, this function may:
 
-Responsibilities include:
+- Develop marketing strategies and promotional campaigns.
+- Expand project visibility and audience reach.
+- Build relationships with relevant communities and potential partners.
+- Explore partnership and collaboration opportunities.
+- Communicate accurate and verified project information.
+- Evaluate marketing activities and their effectiveness.
 
-- Developing marketing strategies and promotional campaigns.
-- Expanding project visibility and audience reach.
-- Introducing MYBIE SWORD and $MYBIE to potential investors.
-- Building relationships with relevant communities and potential partners.
-- Exploring partnership and collaboration opportunities.
-- Communicating accurate and verified project information.
-- Evaluating marketing activities and their effectiveness.
+Anyone performing this function must never promise guaranteed profits, manipulate investment decisions, or present speculation as confirmed information.
 
-The team must never promise guaranteed profits, manipulate investment decisions, or present speculation as confirmed information.
+## 6. Team Coordination
 
-6. Team Coordination
+When multiple functions are active, they should coordinate through a simple process:
 
-The three teams work together through a simple operational process:
+1. Content creators prepare approved creative materials.
+2. Marketing coordinates appropriate distribution and external outreach.
+3. Moderators manage community discussion and share verified announcements.
 
-1. Content Creator Team prepares creative materials.
-2. Marketing & Investor Relations Team plans promotional distribution and external outreach.
-3. Moderator Team manages official channels, communicates with members, and maintains community engagement.
+Important announcements, campaigns, and community activities must use consistent, approved information.
 
-All teams must coordinate when handling important announcements, campaigns, and community activities.
+## 7. Authority and Limitations
 
-7. Authority and Limitations
-
-Team responsibilities are limited to their assigned functions.
+Team responsibilities are limited to specifically assigned functions.
 
 No community team member is automatically authorized to:
 
-- Access project wallets or private keys.
+- Access project wallets, seed phrases, or private keys.
 - Make financial decisions on behalf of the project.
 - Change tokenomics or technical configurations.
 - Make unauthorized promises or commitments.
 - Announce unverified partnerships, listings, or project developments.
 - Represent personal opinions as official project statements.
 
-Access to official accounts must be controlled and protected through appropriate security practices.
+Access to official accounts must be granted only when necessary, with appropriate security controls and the minimum permissions required.
 
-8. Team Principles
+## 8. Team Principles
 
 Every team member is expected to follow these standards:
 
@@ -113,20 +105,17 @@ Every team member is expected to follow these standards:
 
 Team members must act professionally, respect community members, and protect the reputation of MYBIE SWORD.
 
-9. Organizational Approach
+## 9. Organizational Approach
 
-MYBIE SWORD prioritizes a lean and efficient team structure.
+MYBIE SWORD prioritizes a lean and efficient structure.
 
-Team members may perform multiple responsibilities when appropriate, depending on workload, capability, and project needs.
+Positions will be assigned based on actual project needs, capability, trust, and available resources. Additional positions or teams will only be considered when project growth and operational requirements justify them.
 
-Additional positions or teams will only be considered when project growth and operational requirements justify them.
+## 10. Final Statement
 
-10. Final Statement
+Effective teamwork is not measured by the number of positions, but by the quality of execution, responsibility, and coordination.
 
-We believe that effective teamwork is not measured by the number of positions, but by the quality of execution, responsibility, and coordination.
+**One House. Multiple Sword Coins. One Standard.**
 
-One House. Multiple Sword Coins. One Standard.
-
-⚔️ MYBIE SWORD
-
-More Memes. Bigger Dreams.
+⚔️ **MYBIE SWORD**  
+*More Memes. Bigger Dreams.*
