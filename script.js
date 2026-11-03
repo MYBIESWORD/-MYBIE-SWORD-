@@ -1,106 +1,77 @@
-const menuButton = document.querySelector(".menu-toggle");
-const navigation = document.querySelector("#primary-nav");
-const languageButton = document.querySelector(".language-toggle");
-
-if (menuButton && navigation) {
-  menuButton.addEventListener("click", () => {
-    const isOpen = menuButton.getAttribute("aria-expanded") === "true";
-    menuButton.setAttribute("aria-expanded", String(!isOpen));
-    navigation.classList.toggle("open", !isOpen);
+const menuButton=document.querySelector(".menu-toggle");
+const navigation=document.querySelector("#primary-nav");
+const languageSelect=document.querySelector("#language-select");
+if(menuButton&&navigation){
+  menuButton.addEventListener("click",()=>{
+    const open=menuButton.getAttribute("aria-expanded")==="true";
+    menuButton.setAttribute("aria-expanded",String(!open));
+    navigation.classList.toggle("open",!open);
   });
-  navigation.querySelectorAll("a").forEach((link) => {
-    link.addEventListener("click", () => {
-      menuButton.setAttribute("aria-expanded", "false");
-      navigation.classList.remove("open");
-    });
-  });
+  navigation.querySelectorAll("a").forEach(link=>link.addEventListener("click",()=>{
+    menuButton.setAttribute("aria-expanded","false");
+    navigation.classList.remove("open");
+  }));
 }
-
-const translations = {
-  id: {
-    ".skip-link": "Lewati ke konten",
-    ".nav": '<a href="#ecosystem">Ekosistem</a><a href="#principles">Prinsip</a><a href="#transparency">Transparansi</a><a href="#security">Keamanan</a><a href="#governance">Tata Kelola</a><a href="#community" class="nav-cta">Komunitas ↗</a>',
-    ".eyebrow": "EKOSISTEM TERBUKA YANG TERUS BERKEMBANG",
-    ".hero h1": 'Satu Rumah.<br><em>Beragam Sword Coin.</em><br>Satu Standar.',
-    ".hero-lede": "MYBIE SWORD adalah identitas ekosistem yang dibangun berdasarkan prinsip bersama—bukan hanya satu token. Kami percaya kredibilitas diperoleh melalui tindakan, bukti, dan tanggung jawab.",
-    ".hero-actions .button-gold": 'Jelajahi ekosistem <span>↘</span>',
-    ".hero-actions .button-quiet": "Baca dokumentasi kami ↗",
-    ".hero-note span:last-child": "Keamanan · Transparansi · Tanggung Jawab",
-    ".hero-bottom": "<span>BERDIRI SEBAGAI PROYEK TERBUKA</span><span>INDEPENDEN · BERORIENTASI KOMUNITAS</span><span>GULIR UNTUK MENJELAJAH ↓</span>",
-    "#ecosystem .section-label": "01 / EKOSISTEM",
-    "#ecosystem .intro-content h2": 'Identitas bersama.<br><span>Standar yang konsisten.</span>',
-    "#ecosystem .intro-content div": "<p>MYBIE SWORD adalah identitas induk bagi kumpulan proyek yang terus berkembang. Setiap proyek dapat memiliki tujuan sendiri, dengan tetap bertanggung jawab pada nilai-nilai inti yang sama.</p><p class=\"muted\">Ekosistem dikembangkan secara bertahap. Konsep masa depan tidak akan ditampilkan sebagai produk aktif sebelum diluncurkan dan diverifikasi secara independen.</p>",
-    ".token-main .status": "PROYEK PERTAMA",
-    ".token-main p": "Proyek mata uang kripto pertama di bawah identitas MYBIE SWORD.",
-    ".token-meta": "<span>JARINGAN <b>Solana</b></span><span>JENIS <b>Token komunitas</b></span><span>KONTRAK <b>Belum dipublikasikan</b></span>",
-    ".token-aside": '<span class="big-arrow">↗</span><span>Detail proyek<br>akan dipublikasikan<br>setelah diverifikasi.</span>',
-    "#ecosystem > .footnote": "Halaman ini tidak menyiratkan adanya alamat token, pencatatan bursa, audit, atau status on-chain aktif. Detail teknis resmi hanya akan ditambahkan setelah diverifikasi.",
-    "#principles .section-label": "02 / NILAI YANG KAMI JUNJUNG",
-    ".section-heading h2": "Prinsip sebelum janji.",
-    ".section-heading p": "Setiap proyek yang menggunakan identitas ini diharapkan menghormati landasan yang sama.",
-    ".principle-grid": "<article><span>01</span><div class=\"principle-icon\">◇</div><h3>Keamanan</h3><p>Melindungi orang, akun, dompet, dan infrastruktur proyek melalui pengendalian yang cermat.</p></article><article><span>02</span><div class=\"principle-icon\">◎</div><h3>Transparansi</h3><p>Menyampaikan informasi penting dengan jelas serta membedakan fakta terverifikasi dari rencana dan niat.</p></article><article><span>03</span><div class=\"principle-icon\">✧</div><h3>Kejujuran</h3><p>Tidak menjanjikan hasil, menyembunyikan fakta penting, atau menyajikan asumsi sebagai kepastian.</p></article><article><span>04</span><div class=\"principle-icon\">⬡</div><h3>Tanggung Jawab</h3><p>Memahami konsekuensi keputusan dan mengomunikasikan perubahan secara bertanggung jawab.</p></article><article><span>05</span><div class=\"principle-icon\">⌑</div><h3>Akuntabilitas</h3><p>Menyimpan catatan, menerima pengawasan, memperbaiki kesalahan, dan menjelaskan perubahan.</p></article>",
-    "#transparency .section-label": "03 / AKUNTABILITAS PUBLIK",
-    ".split-heading h2": 'Kepercayaan harus<br><em>dapat diverifikasi.</em>',
-    ".split-heading p": "Ketika fakta proyek tersedia, komunitas dapat menemukan bukti di sini—bukan sekadar pengumuman.",
-    ".evidence-list": "<div><span class=\"evidence-number\">A</span><div><h3>Informasi token</h3><p>Alamat mint terverifikasi, detail jaringan, dan otoritas token yang relevan.</p></div><span class=\"evidence-state\">MENUNGGU VERIFIKASI</span></div><div><span class=\"evidence-number\">B</span><div><h3>Pengungkapan distribusi</h3><p>Penjelasan mekanisme distribusi dan dompet yang dikendalikan proyek.</p></div><span class=\"evidence-state\">MENUNGGU VERIFIKASI</span></div><div><span class=\"evidence-number\">C</span><div><h3>Bukti on-chain</h3><p>Tautan penjelajah blockchain dan referensi transaksi yang dapat diperiksa secara independen.</p></div><span class=\"evidence-state\">MENUNGGU VERIFIKASI</span></div><div><span class=\"evidence-number\">D</span><div><h3>Pembaruan proyek</h3><p>Perubahan penting, koreksi, dan catatan perkembangan beserta tanggal serta referensi pendukung.</p></div><span class=\"evidence-state\">BERKELANJUTAN</span></div>",
-    "#transparency > .footnote": "Komitmen tertulis bukan bukti implementasi on-chain. Bukti hanya akan dipublikasikan setelah fakta terkait diperiksa.",
-    "#security .section-label": "04 / KEAMANAN & OPERASIONAL",
-    ".security-panel .eyebrow": "LINDUNGI KOMUNITAS",
-    ".security-panel h2": 'Keamanan adalah proses.<br><em>Bukan sekadar slogan.</em>',
-    ".security-panel > div:first-child > p:not(.eyebrow)": "Dokumentasi kami menetapkan standar perlindungan akun, pengelolaan dompet, kontrol akses, kontribusi yang aman, dan penanganan insiden. Prosedur harus diterapkan dan diuji—bukan hanya ditulis.",
-    ".text-link": "Baca standar operasional keamanan ↗",
-    ".security-stamp b": "KEAMANAN<br>SEJAK DESAIN",
-    ".security-stamp small": "KONTROL TERDOKUMENTASI<br>MEMERLUKAN<br>IMPLEMENTASI",
-    "#governance .section-label": "05 / TATA KELOLA",
-    "#governance .intro-content h2": 'Peran yang jelas.<br><span>Keputusan bertanggung jawab.</span>',
-    "#governance .intro-content div": "<p>Tata kelola dimulai dari kewenangan yang terdefinisi, keputusan yang terdokumentasi, pengungkapan konflik kepentingan, dan batas akses yang sesuai.</p><p class=\"muted\">Kerangka ini menjelaskan standar yang dituju. Dokumen ini tidak menyatakan bahwa dewan formal, sistem pemungutan suara, kas perbendaharaan, atau fungsi audit independen sudah aktif.</p>",
-    ".governance-links": '<a href="https://github.com/MYBIESWORD/-MYBIE-SWORD-/blob/main/GOVERNANCE_FRAMEWORK.md"><span>Kerangka tata kelola</span><b>↗</b></a><a href="https://github.com/MYBIESWORD/-MYBIE-SWORD-/blob/main/COMMUNITY_GUIDELINES.md"><span>Pedoman komunitas</span><b>↗</b></a><a href="https://github.com/MYBIESWORD/-MYBIE-SWORD-/blob/main/ROADMAP.md"><span>Peta jalan pengembangan</span><b>↗</b></a><a href="https://github.com/MYBIESWORD/-MYBIE-SWORD-/"><span>Seluruh dokumentasi proyek</span><b>↗</b></a>',
-    ".community .eyebrow": "BAB BERIKUTNYA DIBANGUN BERSAMA",
-    ".community h2": 'Lebih Banyak Meme.<br><em>Mimpi Lebih Besar.</em>',
-    ".community-inner > p:not(.eyebrow)": "Ikuti kanal resmi untuk mendapatkan pembaruan proyek. Periksa keaslian tautan dan jangan pernah percaya pesan pribadi tak diminta yang meminta dana, frasa pemulihan dompet, atau kunci privat.",
-    ".footer-brand small": "SATU RUMAH. SATU STANDAR.",
-    ".footer > p:first-of-type": "© <span id=\"year\"></span> MYBIE SWORD. Dibangun dengan prinsip.",
-    ".footer-disclaimer": "Informasi ini disediakan hanya untuk komunikasi umum proyek. Tidak ada bagian dari situs ini yang merupakan nasihat keuangan, investasi, hukum, atau pajak. Aset mata uang kripto memiliki risiko yang signifikan.",
-    ".back-top": "KEMBALI KE ATAS ↑"
-  }
+const translations={
+id:{
+nav:'<a href="#ecosystem">Ekosistem</a><a href="#principles">Prinsip</a><a href="#transparency">Transparansi</a><a href="#security">Keamanan</a><a href="#governance">Tata Kelola</a><a href="#community" class="nav-cta">Komunitas ↗</a>',
+heroEyebrow:"EKOSISTEM TERBUKA YANG TERUS BERKEMBANG",heroTitle:'Satu Rumah.<br><em>Beragam Sword Coin.</em><br>Satu Standar.',heroText:"MYBIE SWORD adalah identitas ekosistem yang dibangun berdasarkan prinsip bersama—bukan hanya satu token. Kami percaya kredibilitas diperoleh melalui tindakan, bukti, dan tanggung jawab.",explore:"Jelajahi ekosistem",docs:"Baca dokumentasi kami",ecosystemLabel:"01 / EKOSISTEM",ecosystemTitle:'Identitas bersama.<br><span>Standar yang konsisten.</span>',ecosystemText:"MYBIE SWORD adalah identitas induk bagi kumpulan proyek yang terus berkembang. Setiap proyek dapat memiliki tujuan sendiri, dengan tetap bertanggung jawab pada nilai-nilai inti yang sama.",principlesLabel:"02 / NILAI YANG KAMI JUNJUNG",principlesTitle:"Prinsip sebelum janji.",transparencyLabel:"03 / AKUNTABILITAS PUBLIK",transparencyTitle:'Kepercayaan harus<br><em>dapat diverifikasi.</em>',securityLabel:"04 / KEAMANAN & OPERASIONAL",securityTitle:'Keamanan adalah proses.<br><em>Bukan sekadar slogan.</em>',securityText:"Dokumentasi kami menetapkan standar perlindungan akun, pengelolaan dompet, kontrol akses, kontribusi yang aman, dan penanganan insiden. Prosedur harus diterapkan dan diuji—bukan hanya ditulis.",governanceLabel:"05 / TATA KELOLA",governanceTitle:'Peran yang jelas.<br><span>Keputusan bertanggung jawab.</span>',communityTitle:'Lebih Banyak Meme.<br><em>Mimpi Lebih Besar.</em>',communityText:"Ikuti kanal resmi untuk mendapatkan pembaruan proyek. Periksa keaslian tautan dan jangan pernah percaya pesan pribadi tak diminta yang meminta dana, frasa pemulihan dompet, atau kunci privat."
+},
+zh:{
+nav:'<a href="#ecosystem">生态系统</a><a href="#principles">核心原则</a><a href="#transparency">透明度</a><a href="#security">安全</a><a href="#governance">治理</a><a href="#community" class="nav-cta">社区 ↗</a>',
+heroEyebrow:"开放且持续发展的生态系统",heroTitle:'一个家园。<br><em>多个 Sword Coin。</em><br>一个标准。',heroText:"MYBIE SWORD 是一个以共同原则为基础的生态系统品牌，而不仅仅是单一代币。我们相信，信誉来自行动、证据与责任。",explore:"探索生态系统",docs:"阅读项目文档",ecosystemLabel:"01 / 生态系统",ecosystemTitle:'共同的品牌身份。<br><span>一致的标准。</span>',ecosystemText:"MYBIE SWORD 是不断发展的一系列项目的母品牌。每个项目可以拥有自己的目标，同时遵循相同的核心价值。",principlesLabel:"02 / 我们坚持的原则",principlesTitle:"原则先于承诺。",transparencyLabel:"03 / 公开问责",transparencyTitle:'信任应当<br><em>可以验证。</em>',securityLabel:"04 / 安全与运营",securityTitle:'安全是一项持续流程。<br><em>不只是一句口号。</em>',securityText:"我们的文档规定了账户保护、钱包管理、访问控制、安全贡献和事件响应的标准。流程必须真正落实并经过测试，而不只是写在纸上。",governanceLabel:"05 / 治理",governanceTitle:'职责清晰。<br><span>决策负责。</span>',communityTitle:'更多 Meme。<br><em>更大的梦想。</em>',communityText:"关注官方渠道以获取项目动态。请核实链接，切勿相信主动私信索要资金、助记词或私钥的人。"
+},
+es:{
+nav:'<a href="#ecosystem">Ecosistema</a><a href="#principles">Principios</a><a href="#transparency">Transparencia</a><a href="#security">Seguridad</a><a href="#governance">Gobernanza</a><a href="#community" class="nav-cta">Comunidad ↗</a>',
+heroEyebrow:"UN ECOSISTEMA ABIERTO Y EN EVOLUCIÓN",heroTitle:'Un hogar.<br><em>Múltiples Sword Coins.</em><br>Un estándar.',heroText:"MYBIE SWORD es la identidad de un ecosistema basado en principios compartidos, no solo en un token. Creemos que la credibilidad se gana con acciones, pruebas y responsabilidad.",explore:"Explorar el ecosistema",docs:"Leer la documentación",ecosystemLabel:"01 / EL ECOSISTEMA",ecosystemTitle:'Una identidad compartida.<br><span>Un estándar coherente.</span>',ecosystemText:"MYBIE SWORD es la identidad matriz de un conjunto creciente de proyectos. Cada proyecto puede tener su propio propósito y mantener los mismos valores fundamentales.",principlesLabel:"02 / NUESTROS PRINCIPIOS",principlesTitle:"Principios antes que promesas.",transparencyLabel:"03 / RENDICIÓN DE CUENTAS",transparencyTitle:'La confianza debe ser<br><em>verificable.</em>',securityLabel:"04 / SEGURIDAD Y OPERACIONES",securityTitle:'La seguridad es un proceso.<br><em>No un eslogan.</em>',securityText:"Nuestra documentación establece pautas para proteger cuentas, gestionar monederos, controlar accesos, contribuir de forma segura y responder a incidentes. Los procedimientos deben aplicarse y probarse, no solo escribirse.",governanceLabel:"05 / GOBERNANZA",governanceTitle:'Funciones claras.<br><span>Decisiones responsables.</span>',communityTitle:'Más memes.<br><em>Sueños más grandes.</em>',communityText:"Sigue los canales oficiales para recibir novedades. Verifica los enlaces y nunca confíes en mensajes no solicitados que pidan fondos, frases semilla o claves privadas."
+},
+tr:{
+nav:'<a href="#ecosystem">Ekosistem</a><a href="#principles">İlkeler</a><a href="#transparency">Şeffaflık</a><a href="#security">Güvenlik</a><a href="#governance">Yönetişim</a><a href="#community" class="nav-cta">Topluluk ↗</a>',
+heroEyebrow:"AÇIK VE GELİŞEN BİR EKOSİSTEM",heroTitle:'Tek bir çatı.<br><em>Birden fazla Sword Coin.</em><br>Tek standart.',heroText:"MYBIE SWORD, yalnızca tek bir token değil, ortak ilkelere dayanan bir ekosistem kimliğidir. Güvenilirliğin eylemler, kanıtlar ve hesap verebilirlikle kazanıldığına inanıyoruz.",explore:"Ekosistemi keşfet",docs:"Belgeleri oku",ecosystemLabel:"01 / EKOSİSTEM",ecosystemTitle:'Ortak bir kimlik.<br><span>Tutarlı bir standart.</span>',ecosystemText:"MYBIE SWORD, gelişen proje topluluğunun ana kimliğidir. Her proje kendi amacına sahip olabilir ve aynı temel değerlere bağlı kalır.",principlesLabel:"02 / TEMEL İLKELERİMİZ",principlesTitle:"Sözlerden önce ilkeler.",transparencyLabel:"03 / KAMUYA HESAP VEREBİLİRLİK",transparencyTitle:'Güven<br><em>doğrulanabilir olmalı.</em>',securityLabel:"04 / GÜVENLİK VE OPERASYON",securityTitle:'Güvenlik bir süreçtir.<br><em>Sadece slogan değil.</em>',securityText:"Belgelerimiz hesap koruma, cüzdan yönetimi, erişim denetimi, güvenli katkı ve olay müdahalesi standartlarını belirler. Süreçler yalnızca yazılmamalı, uygulanmalı ve test edilmelidir.",governanceLabel:"05 / YÖNETİŞİM",governanceTitle:'Net roller.<br><span>Sorumlu kararlar.</span>',communityTitle:'Daha fazla meme.<br><em>Daha büyük hayaller.</em>',communityText:"Proje güncellemeleri için resmî kanalları takip edin. Bağlantıları doğrulayın; para, kurtarma kelimeleri veya özel anahtar isteyen istenmeyen mesajlara güvenmeyin."
+},
+vi:{
+nav:'<a href="#ecosystem">Hệ sinh thái</a><a href="#principles">Nguyên tắc</a><a href="#transparency">Minh bạch</a><a href="#security">Bảo mật</a><a href="#governance">Quản trị</a><a href="#community" class="nav-cta">Cộng đồng ↗</a>',
+heroEyebrow:"HỆ SINH THÁI MỞ ĐANG PHÁT TRIỂN",heroTitle:'Một mái nhà.<br><em>Nhiều Sword Coin.</em><br>Một tiêu chuẩn.',heroText:"MYBIE SWORD là bản sắc của một hệ sinh thái dựa trên các nguyên tắc chung, không chỉ là một token. Chúng tôi tin rằng uy tín được xây dựng bằng hành động, bằng chứng và trách nhiệm.",explore:"Khám phá hệ sinh thái",docs:"Đọc tài liệu dự án",ecosystemLabel:"01 / HỆ SINH THÁI",ecosystemTitle:'Bản sắc chung.<br><span>Tiêu chuẩn nhất quán.</span>',ecosystemText:"MYBIE SWORD là bản sắc chung cho một tập hợp dự án đang phát triển. Mỗi dự án có mục tiêu riêng nhưng vẫn tuân theo các giá trị cốt lõi.",principlesLabel:"02 / NHỮNG ĐIỀU CHÚNG TÔI ĐỀ CAO",principlesTitle:"Nguyên tắc trước lời hứa.",transparencyLabel:"03 / TRÁCH NHIỆM CÔNG KHAI",transparencyTitle:'Niềm tin cần<br><em>được kiểm chứng.</em>',securityLabel:"04 / BẢO MẬT & VẬN HÀNH",securityTitle:'Bảo mật là một quá trình.<br><em>Không chỉ là khẩu hiệu.</em>',securityText:"Tài liệu của chúng tôi đặt ra tiêu chuẩn bảo vệ tài khoản, quản lý ví, kiểm soát quyền truy cập, đóng góp an toàn và ứng phó sự cố. Quy trình phải được thực hiện và kiểm thử, không chỉ được ghi lại.",governanceLabel:"05 / QUẢN TRỊ",governanceTitle:'Vai trò rõ ràng.<br><span>Quyết định có trách nhiệm.</span>',communityTitle:'Nhiều meme hơn.<br><em>Ước mơ lớn hơn.</em>',communityText:"Theo dõi các kênh chính thức để cập nhật dự án. Hãy xác minh liên kết và không tin nhắn riêng tự phát yêu cầu tiền, cụm từ khôi phục hoặc khóa riêng."
+},
+pt:{
+nav:'<a href="#ecosystem">Ecossistema</a><a href="#principles">Princípios</a><a href="#transparency">Transparência</a><a href="#security">Segurança</a><a href="#governance">Governança</a><a href="#community" class="nav-cta">Comunidade ↗</a>',
+heroEyebrow:"UM ECOSSISTEMA ABERTO EM EVOLUÇÃO",heroTitle:'Uma casa.<br><em>Várias Sword Coins.</em><br>Um padrão.',heroText:"MYBIE SWORD é a identidade de um ecossistema orientado por princípios compartilhados, não apenas por um token. Acreditamos que credibilidade se conquista com ações, evidências e responsabilidade.",explore:"Explorar o ecossistema",docs:"Ler a documentação",ecosystemLabel:"01 / O ECOSSISTEMA",ecosystemTitle:'Uma identidade compartilhada.<br><span>Um padrão consistente.</span>',ecosystemText:"MYBIE SWORD é a identidade principal de um conjunto crescente de projetos. Cada projeto pode ter seu próprio propósito e manter os mesmos valores fundamentais.",principlesLabel:"02 / NOSSOS PRINCÍPIOS",principlesTitle:"Princípios antes de promessas.",transparencyLabel:"03 / PRESTAÇÃO DE CONTAS",transparencyTitle:'A confiança deve ser<br><em>verificável.</em>',securityLabel:"04 / SEGURANÇA E OPERAÇÕES",securityTitle:'Segurança é um processo.<br><em>Não um slogan.</em>',securityText:"Nossa documentação define padrões para proteção de contas, gestão de carteiras, controle de acesso, contribuições seguras e resposta a incidentes. Os procedimentos devem ser implementados e testados, não apenas documentados.",governanceLabel:"05 / GOVERNANÇA",governanceTitle:'Funções claras.<br><span>Decisões responsáveis.</span>',communityTitle:'Mais memes.<br><em>Sonhos maiores.</em>',communityText:"Acompanhe os canais oficiais para receber atualizações. Verifique os links e nunca confie em mensagens não solicitadas que peçam fundos, frases de recuperação ou chaves privadas."
+},
+ko:{
+nav:'<a href="#ecosystem">생태계</a><a href="#principles">원칙</a><a href="#transparency">투명성</a><a href="#security">보안</a><a href="#governance">거버넌스</a><a href="#community" class="nav-cta">커뮤니티 ↗</a>',
+heroEyebrow:"개방적이고 성장하는 생태계",heroTitle:'하나의 울타리.<br><em여러 Sword Coin.</em><br>하나의 기준.',heroText:"MYBIE SWORD는 단일 토큰이 아니라 공동의 원칙을 바탕으로 구축된 생태계 브랜드입니다. 신뢰성은 행동과 증거, 책임을 통해 얻어진다고 믿습니다.",explore:"생태계 살펴보기",docs:"문서 읽기",ecosystemLabel:"01 / 생태계",ecosystemTitle:'공유하는 정체성.<br><span>일관된 기준.</span>',ecosystemText:"MYBIE SWORD는 성장하는 프로젝트들의 상위 브랜드입니다. 각 프로젝트는 고유한 목적을 가지면서도 동일한 핵심 가치를 지킵니다.",principlesLabel:"02 / 우리가 지키는 원칙",principlesTitle:"약속보다 원칙을 먼저.",transparencyLabel:"03 / 공개적 책임",transparencyTitle:'신뢰는<br><em>검증할 수 있어야 합니다.</em>',securityLabel:"04 / 보안 및 운영",securityTitle:'보안은 과정입니다.<br><em>구호가 아닙니다.</em>',securityText:"문서는 계정 보호, 지갑 관리, 접근 통제, 안전한 기여 및 사고 대응 기준을 정합니다. 절차는 문서화에 그치지 않고 실제로 적용하고 시험해야 합니다.",governanceLabel:"05 / 거버넌스",governanceTitle:'명확한 역할.<br><span>책임 있는 결정.</span>',communityTitle:'더 많은 밈.<br><em>더 큰 꿈.</em>',communityText:"프로젝트 소식은 공식 채널에서 확인하세요. 링크를 검증하고 자금, 복구 문구 또는 개인 키를 요구하는 먼저 온 개인 메시지를 신뢰하지 마세요."
+},
+ja:{
+nav:'<a href="#ecosystem">エコシステム</a><a href="#principles">原則</a><a href="#transparency">透明性</a><a href="#security">セキュリティ</a><a href="#governance">ガバナンス</a><a href="#community" class="nav-cta">コミュニティ ↗</a>',
+heroEyebrow:"オープンで進化し続けるエコシステム",heroTitle:'ひとつの家。<br><em>複数の Sword Coin。</em><br>ひとつの基準。',heroText:"MYBIE SWORDは、単一のトークンではなく、共通の原則に基づくエコシステムのブランドです。信頼は行動、証拠、説明責任によって築かれると考えています。",explore:"エコシステムを見る",docs:"ドキュメントを読む",ecosystemLabel:"01 / エコシステム",ecosystemTitle:'共有するアイデンティティ。<br><span>一貫した基準。</span>',ecosystemText:"MYBIE SWORDは成長するプロジェクト群の親ブランドです。各プロジェクトは独自の目的を持ちながら、共通の基本価値を守ります。",principlesLabel:"02 / 大切にする原則",principlesTitle:"約束よりも原則を。",transparencyLabel:"03 / 公開説明責任",transparencyTitle:'信頼は<br><em>検証できるものであるべきです。</em>',securityLabel:"04 / セキュリティと運用",securityTitle:'セキュリティはプロセス。<br><em>スローガンではありません。</em>',securityText:"文書では、アカウント保護、ウォレット管理、アクセス制御、安全な貢献、インシデント対応の基準を定めています。手順は記録するだけでなく、実施して検証する必要があります。",governanceLabel:"05 / ガバナンス",governanceTitle:'明確な役割。<br><span>責任ある意思決定。</span>',communityTitle:'ミームをもっと。<br><em>夢をもっと大きく。</em>',communityText:"プロジェクトの最新情報は公式チャンネルでご確認ください。リンクを確認し、資金、シードフレーズ、秘密鍵を求める不審なメッセージには応じないでください。"
+},
+ru:{
+nav:'<a href="#ecosystem">Экосистема</a><a href="#principles">Принципы</a><a href="#transparency">Прозрачность</a><a href="#security">Безопасность</a><a href="#governance">Управление</a><a href="#community" class="nav-cta">Сообщество ↗</a>',
+heroEyebrow:"ОТКРЫТАЯ И РАЗВИВАЮЩАЯСЯ ЭКОСИСТЕМА",heroTitle:'Один дом.<br><em>Несколько Sword Coin.</em><br>Единый стандарт.',heroText:"MYBIE SWORD — это идентичность экосистемы, основанной на общих принципах, а не просто один токен. Мы считаем, что доверие заслуживается действиями, доказательствами и ответственностью.",explore:"Изучить экосистему",docs:"Читать документацию",ecosystemLabel:"01 / ЭКОСИСТЕМА",ecosystemTitle:'Общая идентичность.<br><span>Единый стандарт.</span>',ecosystemText:"MYBIE SWORD — общий бренд для развивающегося набора проектов. У каждого проекта может быть своя цель при соблюдении общих базовых ценностей.",principlesLabel:"02 / НАШИ ПРИНЦИПЫ",principlesTitle:"Принципы важнее обещаний.",transparencyLabel:"03 / ПУБЛИЧНАЯ ОТЧЁТНОСТЬ",transparencyTitle:'Доверие должно быть<br><em>проверяемым.</em>',securityLabel:"04 / БЕЗОПАСНОСТЬ И ОПЕРАЦИИ",securityTitle:'Безопасность — это процесс.<br><em>А не лозунг.</em>',securityText:"Документация устанавливает стандарты защиты аккаунтов, управления кошельками, контроля доступа, безопасного участия и реагирования на инциденты. Процедуры нужно внедрять и тестировать, а не только описывать.",governanceLabel:"05 / УПРАВЛЕНИЕ",governanceTitle:'Чёткие роли.<br><span>Ответственные решения.</span>',communityTitle:'Больше мемов.<br><em>Масштабнее мечты.</em>',communityText:"Следите за официальными каналами проекта. Проверяйте ссылки и не доверяйте незапрошенным сообщениям с просьбами отправить средства, seed-фразу или приватный ключ."
+}
 };
-
-const original = new Map();
-const selectors = Object.keys(translations.id);
-selectors.forEach((selector) => {
-  const element = document.querySelector(selector);
-  if (element) original.set(selector, element.innerHTML);
-});
-
-function setLanguage(language) {
-  document.documentElement.lang = language;
-  selectors.forEach((selector) => {
-    const element = document.querySelector(selector);
-    if (!element) return;
-    element.innerHTML = language === "id" ? translations.id[selector] : original.get(selector);
-  });
-  if (languageButton) {
-    languageButton.textContent = language === "id" ? "EN" : "ID";
-    languageButton.setAttribute("aria-label", language === "id" ? "Switch to English" : "Ganti ke Bahasa Indonesia");
-  }
-  document.title = language === "id"
-    ? "MYBIE SWORD — Satu Rumah. Beragam Sword Coin. Satu Standar."
-    : "MYBIE SWORD — One House. Multiple Sword Coins. One Standard.";
-  const description = document.querySelector('meta[name="description"]');
-  if (description) description.content = language === "id"
-    ? "MYBIE SWORD adalah ekosistem proyek yang berkembang dengan prinsip keamanan, transparansi, kejujuran, tanggung jawab, dan akuntabilitas."
-    : "MYBIE SWORD is an evolving project ecosystem guided by security, transparency, honesty, responsibility, and accountability.";
-  localStorage.setItem("mybie-language", language);
+const original={};
+const targets={
+nav:"#primary-nav",heroEyebrow:".hero-copy .eyebrow",heroTitle:".hero h1",heroText:".hero-lede",explore:".hero-actions .button-gold",docs:".hero-actions .button-quiet",ecosystemLabel:"#ecosystem .section-label",ecosystemTitle:"#ecosystem .intro-content h2",ecosystemText:"#ecosystem .intro-content div p:first-child",principlesLabel:"#principles .section-label",principlesTitle:".section-heading h2",transparencyLabel:"#transparency .section-label",transparencyTitle:".split-heading h2",securityLabel:"#security .section-label",securityTitle:".security-panel h2",securityText:".security-panel > div:first-child > p:not(.eyebrow)",governanceLabel:"#governance .section-label",governanceTitle:"#governance .intro-content h2",communityTitle:".community h2",communityText:".community-inner > p:not(.eyebrow)"
+};
+for(const [key,selector] of Object.entries(targets)){const el=document.querySelector(selector);if(el)original[key]=el.innerHTML;}
+function applyLanguage(lang){
+ const dict=translations[lang]||{};
+ for(const [key,selector] of Object.entries(targets)){
+   const el=document.querySelector(selector);if(!el)continue;
+   el.innerHTML=lang==="en"?(original[key]||el.innerHTML):(dict[key]??original[key]??el.innerHTML);
+ }
+ document.documentElement.lang=lang==="zh"?"zh-CN":lang;
+ if(languageSelect)languageSelect.value=lang;
+ const names={en:"MYBIE SWORD — One House. Multiple Sword Coins. One Standard.",id:"MYBIE SWORD — Satu Rumah. Beragam Sword Coin. Satu Standar.",zh:"MYBIE SWORD — 一个家园。多个 Sword Coin。一个标准。",es:"MYBIE SWORD — Un hogar. Múltiples Sword Coins. Un estándar.",tr:"MYBIE SWORD — Tek bir çatı. Birden fazla Sword Coin. Tek standart.",vi:"MYBIE SWORD — Một mái nhà. Nhiều Sword Coin. Một tiêu chuẩn.",pt:"MYBIE SWORD — Uma casa. Várias Sword Coins. Um padrão.",ko:"MYBIE SWORD — 하나의 울타리. 여러 Sword Coin. 하나의 기준.",ja:"MYBIE SWORD — ひとつの家。複数の Sword Coin。ひとつの基準。",ru:"MYBIE SWORD — Один дом. Несколько Sword Coin. Единый стандарт."};
+ document.title=names[lang]||names.en;
+ const desc=document.querySelector('meta[name="description"]');
+ if(desc)desc.content=lang==="id"?"MYBIE SWORD adalah ekosistem proyek yang berkembang dengan prinsip keamanan, transparansi, kejujuran, tanggung jawab, dan akuntabilitas.":lang==="en"?"MYBIE SWORD is an evolving project ecosystem guided by security, transparency, honesty, responsibility, and accountability.":(translations[lang]?.heroText||names[lang]);
+ try{localStorage.setItem("mybie-language",lang);}catch(e){}
 }
-
-if (languageButton) {
-  languageButton.addEventListener("click", () => {
-    const nextLanguage = document.documentElement.lang === "id" ? "en" : "id";
-    setLanguage(nextLanguage);
-  });
+if(languageSelect){
+ languageSelect.addEventListener("change",()=>applyLanguage(languageSelect.value));
+ let saved="en";try{saved=localStorage.getItem("mybie-language")||"en";}catch(e){}
+ applyLanguage(translations[saved]||saved==="en"?saved:"en");
 }
-const savedLanguage = localStorage.getItem("mybie-language");
-if (savedLanguage === "id") setLanguage("id");
-
-const year = document.querySelector("#year");
-if (year) year.textContent = new Date().getFullYear();
+const year=document.querySelector("#year");if(year)year.textContent=new Date().getFullYear();
