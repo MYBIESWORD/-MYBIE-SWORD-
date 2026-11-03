@@ -147,7 +147,7 @@ One House. Multiple Sword Coins. One Standard.
 
 MYBIE SWORD maintains separate visual identities for its parent brand and its first token.
 
-- **MYBIE SWORD Brand Logo:** `assets/brand/mybie-sword-logo.png`
-- **$MYBIE Token Logo:** `assets/token/mybie-coin-logo.png`
+- **MYBIE SWORD Brand Logo:** [View Brand Logo](assets/brand/mybie-sword-logo.png)
+- **$MYBIE Token Logo:** [View Token Logo](assets/token/mybie-coin-logo.png)
 
 One House. Multiple Sword Coins. One Standard.
