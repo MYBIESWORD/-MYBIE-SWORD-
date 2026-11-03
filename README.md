@@ -4,99 +4,139 @@ More Memes. Bigger Dreams.
 
 One House. Multiple Sword Coins. One Standard.
 
-MYBIE SWORD is a sword-themed crypto brand built around protection, courage, integrity, honor, and resilience.
-
-It represents more than a cryptocurrency. It is a long-term brand vision built on clear principles, transparent communication, and community-driven growth.
-
 ---
 
-1. Our Identity
+1. About MYBIE SWORD
 
-MYBIE SWORD is the parent brand.
+MYBIE SWORD is a project ecosystem built around a shared identity, vision, philosophy, and standards.
 
-Its identity is inspired by the symbolism of a sword: not aggression, but the strength to protect, the courage to face challenges, and the discipline to uphold one's principles.
+Our goal is to develop an ecosystem where every project follows consistent principles of:
 
-The sword represents five core values:
+- Security
+- Transparency
+- Honesty
+- Responsibility
+- Accountability
 
-- Protection — Safeguarding what matters.
-- Courage — Facing challenges with determination.
-- Integrity — Staying true to our principles.
-- Honor — Acting with respect and responsibility.
-- Resilience — Continuing to grow through challenges.
+We believe that credibility is built through actions, not promises.
 
 2. Our First Project — $MYBIE
 
-$MYBIE is the first crypto project under the MYBIE SWORD brand.
+$MYBIE is the first cryptocurrency project under the MYBIE SWORD identity.
 
-The project begins on the Solana network, with a focus on building its identity, community, and foundation.
+- Token: $MYBIE
+- Blockchain: Solana
+- Ecosystem: MYBIE SWORD
 
-Our priority is to develop one project properly before considering additional projects under the brand.
+$MYBIE represents the first step in developing our ecosystem and building our community.
+
+Further technical information will be published when the relevant details are available and verified.
 
 3. Our Philosophy
 
-We believe that a strong project should be built on more than attention and speculation.
+One House. Multiple Sword Coins. One Standard.
 
-Our approach emphasizes:
+MYBIE SWORD represents a shared identity with the possibility of multiple future projects.
 
-- Building a recognizable identity.
-- Growing a genuine community.
-- Communicating honestly.
-- Prioritizing security awareness.
-- Developing responsibly and transparently.
+Every project under this identity is expected to follow the same fundamental standards.
 
-We value sustainable progress over unrealistic promises.
+Our symbol, the sword, represents:
 
-4. Our Standards
+- Protection
+- Courage
+- Integrity
+- Honor
+- Resilience
 
-Every project under the MYBIE SWORD identity should respect these five standards:
+The sword represents our values, not aggression.
 
-Standard| Principle
-Security| Take asset and project security seriously.
-Transparency| Communicate openly and clearly.
-Honesty| Never misrepresent project conditions.
-Responsibility| Consider the impact of project decisions.
-Accountability| Take responsibility for actions and commitments.
+4. Our Core Standards
 
-These standards are guiding principles, not a guarantee of financial performance or risk-free outcomes.
+Every MYBIE SWORD initiative follows five principles:
 
-5. Long-Term Vision
+Principle| Meaning
+Security| Protecting project assets, systems, and community interests.
+Transparency| Communicating information openly and clearly.
+Honesty| Avoiding misleading claims and unrealistic promises.
+Responsibility| Taking responsibility for decisions and operations.
+Accountability| Maintaining standards and being answerable for actions.
 
-MYBIE SWORD is designed as a parent brand that may support multiple sword-themed crypto projects in the future.
+These principles are commitments, not guarantees of financial outcomes or absolute security.
 
-However, our current focus remains on $MYBIE.
+5. Project Documentation
 
-An independent blockchain is a long-term ambition, not a current development or launch commitment.
+Explore our official project documentation:
 
-Future expansion will depend on the foundation, resources, and readiness of the ecosystem.
+Document| Description
+"PROJECT OVERVIEW" (PROJECT_OVERVIEW.md)| Project identity, vision, principles, and development approach.
+"BRAND CONCEPT" (BRAND_CONCEPT.md)| Brand identity, philosophy, and symbolism.
+"ROADMAP" (ROADMAP.md)| Development direction and planned stages.
+"COMMUNITY GUIDELINES" (COMMUNITY_GUIDELINES.md)| Rules and standards for community members.
+"COMMUNITY TEAM STRUCTURE" (COMMUNITY_TEAM_STRUCTURE.md)| Community team responsibilities and coordination.
+"MODERATOR ROLE" (MODERATOR_ROLE.md)| Moderator duties, security practices, and authority limits.
 
-6. Transparency Commitment
+Documentation will be updated progressively as the project develops.
 
-We believe transparency must be demonstrated through actions, not just words.
+6. Community & Team
 
-Project information, development updates, and relevant changes should be communicated honestly.
+We believe that a strong ecosystem requires responsible participation and effective teamwork.
 
-We do not promise guaranteed returns, guaranteed growth, or future utility that has not been established.
+Our community operations are organized around three main functions:
 
-7. Important Disclaimer
+1. Moderator Team — Community management, official communication channels, member engagement, and community security.
+2. Content Creator Team — Memes, graphics, videos, and creative materials.
+3. Marketing & Investor Relations Team — Project awareness, marketing strategies, external relationships, and investor communication.
 
-$MYBIE is an independent, community-driven meme token project.
+Each function operates within its assigned responsibilities and authority.
 
-Cryptocurrency assets are highly volatile and involve substantial risk, including the possibility of losing the entire amount invested.
+7. Transparency & Distribution
 
-Nothing in this repository should be interpreted as financial advice or a promise of profit.
+MYBIE SWORD has established public distribution commitments for $MYBIE, including:
+
+- No developer token purchases at launch.
+- No private developer token reserve or allocation.
+- No team, promoter, or insider allocation.
+- No presale or hidden allocation.
+- Open and transparent token distribution.
+- Monitoring significant holder and wallet movements.
+- Prioritizing project wallet and asset security.
+
+These commitments must be reflected in the actual launch configuration and distribution process.
+
+8. Official Channels
+
+Stay connected through our official channels:
+
+- X: "@MYBIESWORD" (https://x.com/MYBIESWORD)
+- Telegram: "@MYBIESOL" (https://t.me/MYBIESOL)
+- Email: maybiesword.official@gmail.com
+
+Always verify announcements through official channels.
+
+Be cautious of impersonators, suspicious links, and unsolicited direct messages.
+
+Official administrators will never request your wallet seed phrase or private keys.
+
+9. Risk Disclaimer
+
+Cryptocurrency involves substantial risks, including the possibility of losing the entire amount invested.
+
+Nothing in this repository should be interpreted as a promise of profit, guaranteed returns, or financial advice.
 
 Always conduct your own research before making financial decisions.
 
-8. Official Documentation
+10. Our Commitment
 
-For the complete brand philosophy and identity guidelines, see:
+We believe trust is built through consistent actions, transparent communication, and responsibility.
 
-"MYBIE SWORD — Official Brand Concept & Project Philosophy" [Read Official Brand Concept & Project Philosophy](./BRAND_CONCEPT.md)
+We are committed to developing MYBIE SWORD step by step, prioritizing substance over promises.
+
+We have nothing to hide. Transparency is not an option; it is our standard.
 
 ---
 
-MYBIE SWORD
-
-One House. Multiple Sword Coins. One Standard.
+⚔️ MYBIE SWORD
 
 More Memes. Bigger Dreams.
+
+One House. Multiple Sword Coins. One Standard.
