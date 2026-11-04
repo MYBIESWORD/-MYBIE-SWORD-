@@ -71,6 +71,7 @@ Explore the official MYBIE SWORD documentation:
 ### Project Foundation
 
 - [Project Overview](PROJECT_OVERVIEW.md) — Project identity, vision, principles, and development approach.
+- [Whitepaper v1.0](WHITEPAPER.md) — Project vision, $MYBIE disclosures, distribution commitments, governance, risks, and roadmap.
 - [Brand Concept](BRAND_CONCEPT.md) — Brand identity, philosophy, and symbolism.
 - [Roadmap](ROADMAP.md) — Development direction and planned stages.
 - [Visual Identity Guidelines](VISUAL_IDENTITY_GUIDELINES.md) — Official logos and visual identity usage.
