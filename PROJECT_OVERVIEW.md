@@ -87,8 +87,8 @@ These commitments must be reflected in the actual launch configuration and distr
 
 - **X:** [@MYBIESWORD](https://x.com/MYBIESWORD)
 - **Telegram:** [@MYBIESOL](https://t.me/MYBIESOL)
-- **GitHub documentation:** [MYBIE SWORD repository](https://github.com/MYBIESWORD/-MYBIE-SWORD-/)
-- **Email:** maybiesword.official@gmail.com
+- **GitHub documentation:** [MYBIE SWORD repository](https://github.com/MYBIESWORD/mybiesword.github.io/)
+- **Email:** mybiesword.official@gmail.com
 
 ## 9. Important Notice
 
