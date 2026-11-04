@@ -30,7 +30,7 @@ const year=document.querySelector("#year");if(year)year.textContent=new Date().g
     if(heading)heading.innerHTML='MYBIE<br><em>SWORD</em>';
     if(tagline)tagline.textContent='More Memes. Bigger Dreams.';
     if(primary)primary.innerHTML='Join Community <span>↗</span>';
-    if(secondary)secondary.textContent='Read our documentation ↗';
+    if(secondary)secondary.textContent='Read Whitepaper ↗';
   }
   applyHeroIdentity();
   if(language)language.addEventListener("change",applyHeroIdentity);
