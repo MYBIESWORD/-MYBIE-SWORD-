@@ -24,3 +24,33 @@
 @media(max-width:900px){.site-header{gap:10px}.brand{margin-right:auto}.language-label{order:0;margin-left:auto}.menu-toggle{order:1}.nav{order:2}}
 @media(max-width:720px){.site-header{height:72px;padding:0 5%}.brand{gap:9px}.brand-logo{width:42px;height:42px}.brand strong{font-size:11px;letter-spacing:.12em}.brand small{font-size:7px;letter-spacing:.12em;margin-top:3px}.language-toggle{max-width:112px;min-height:34px;padding:7px 22px 7px 8px;font-size:9px}.language-label{margin-left:auto}.menu-toggle{margin-left:0}.nav{top:71px}}
 @media(max-width:380px){.brand{gap:7px}.brand-logo{width:36px;height:36px}.brand strong{font-size:10px}.brand small{font-size:6px;letter-spacing:.1em}.language-toggle{max-width:96px;font-size:8px}}
+
+/* HERO SECTION visual refresh — preserve all existing page content */
+.hero{min-height:760px;padding-top:108px;padding-bottom:64px;background:radial-gradient(ellipse at 78% 48%,#51247b38 0%,#25143c22 28%,transparent 58%),radial-gradient(ellipse at 12% 80%,#8b682018 0%,transparent 42%),linear-gradient(115deg,#090a0d 0%,#0d0b12 58%,#100b17 100%)}
+.hero-grid{background-image:linear-gradient(#c9a45c0b 1px,transparent 1px),linear-gradient(90deg,#c9a45c0b 1px,transparent 1px);opacity:.38}
+.hero-copy{max-width:690px}
+.hero-copy .eyebrow{display:inline-flex;align-items:center;padding:9px 13px;border:1px solid #c9a45c3d;background:#0d0c10b8;border-radius:2px;color:#d8bc82;letter-spacing:.22em}
+.hero h1{font-size:clamp(64px,9vw,112px);line-height:.91;letter-spacing:-.075em;margin:28px 0 18px;text-shadow:0 8px 36px #0009}
+.hero h1 em{color:#e6c77f;text-shadow:0 0 34px #c9a45c30}
+.hero-tagline{font:500 clamp(17px,2vw,23px) var(--serif);letter-spacing:.025em;color:#e9dfca;margin:0 0 23px}
+.hero-lede{max-width:520px;color:#b7b0c0;font-size:14px;line-height:1.85}
+.hero-actions{gap:13px;margin-top:30px}
+.hero-actions .button{min-height:48px;display:inline-flex;align-items:center;justify-content:center;padding:14px 21px;letter-spacing:.055em;text-transform:uppercase;font:10px var(--mono);transition:transform .2s,box-shadow .2s,border-color .2s}
+.hero-actions .button:hover{transform:translateY(-2px)}
+.hero-actions .button-gold{background:linear-gradient(110deg,#a77b37,#e8ca83 58%,#b88b48);box-shadow:0 8px 28px #b18a4826;color:#14100a}
+.hero-actions .button-gold:hover{box-shadow:0 10px 34px #c9a45c55}
+.hero-actions .button-quiet{border:1px solid #c9a45c70;background:#100e16a8;color:#e5d6b4}
+.hero-actions .button-quiet:hover{border-color:#e5c987;background:#1b1424}
+.hero-note{margin-top:42px;color:#9a91a2}
+.hero-art{right:7%;top:17%;width:430px;height:430px}
+.hero-art:before{content:"";position:absolute;inset:5%;border-radius:50%;background:radial-gradient(circle,#7a42a52b 0%,#4a28651c 43%,transparent 70%);filter:blur(18px)}
+.orbit{border-color:#c9a45c42;box-shadow:0 0 25px #7e42a51a}
+.orbit-one{width:355px;height:355px}
+.orbit-two{width:285px;height:425px;border-color:#a77ac044}
+.hero-logo{width:300px;height:300px;filter:drop-shadow(0 0 30px #c9a45c48) drop-shadow(0 0 65px #7d42a533)}
+.art-caption{color:#9b8ca7}
+.art-caption b{color:#dfbf78}
+.hero-bottom{border-color:#c9a45c2b;color:#8f8797}
+@media(max-width:900px){.hero{min-height:720px}.hero-art{right:1%;opacity:.52}.hero-copy{max-width:620px}.hero-copy:before{content:"";position:absolute;inset:-30px -25px;background:linear-gradient(90deg,#090a0df2 0%,#090a0dd9 70%,transparent);z-index:-1;pointer-events:none}}
+@media(max-width:720px){.hero{min-height:790px;padding-top:72px;padding-bottom:45px;background:radial-gradient(ellipse at 76% 64%,#51247b36 0%,transparent 53%),linear-gradient(145deg,#090a0d,#100b17)}.hero h1{font-size:clamp(62px,16vw,86px);margin:24px 0 14px}.hero-tagline{font-size:19px;margin-bottom:18px}.hero-lede{font-size:12px;max-width:390px}.hero-art{width:260px;height:260px;right:0;bottom:88px;top:auto;opacity:.42}.orbit-one{width:220px;height:220px}.orbit-two{width:180px;height:265px}.hero-logo{width:205px;height:205px}.hero-actions{align-items:stretch;max-width:360px}.hero-actions .button{flex:1 1 145px;padding:13px 12px;font-size:9px}.hero-note{margin-top:30px}.hero-bottom{bottom:20px}}
+@media(max-width:380px){.hero{min-height:820px}.hero-actions .button{flex-basis:100%}.hero-art{right:-35px;bottom:88px}}
