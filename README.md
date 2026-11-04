@@ -119,7 +119,7 @@ Stay connected through our official channels:
 
 - **X:** [@MYBIESWORD](https://x.com/MYBIESWORD)
 - **Telegram:** [@MYBIESOL](https://t.me/MYBIESOL)
-- **Email:** maybiesword.official@gmail.com
+- **Email:** mybiesword.official@gmail.com
 
 Always verify announcements through official channels.
 
