@@ -54,3 +54,6 @@
 @media(max-width:900px){.hero{min-height:720px}.hero-art{right:1%;opacity:.52}.hero-copy{max-width:620px}.hero-copy:before{content:"";position:absolute;inset:-30px -25px;background:linear-gradient(90deg,#090a0df2 0%,#090a0dd9 70%,transparent);z-index:-1;pointer-events:none}}
 @media(max-width:720px){.hero{min-height:790px;padding-top:72px;padding-bottom:45px;background:radial-gradient(ellipse at 76% 64%,#51247b36 0%,transparent 53%),linear-gradient(145deg,#090a0d,#100b17)}.hero h1{font-size:clamp(62px,16vw,86px);margin:24px 0 14px}.hero-tagline{font-size:19px;margin-bottom:18px}.hero-lede{font-size:12px;max-width:390px}.hero-art{width:260px;height:260px;right:0;bottom:88px;top:auto;opacity:.42}.orbit-one{width:220px;height:220px}.orbit-two{width:180px;height:265px}.hero-logo{width:205px;height:205px}.hero-actions{align-items:stretch;max-width:360px}.hero-actions .button{flex:1 1 145px;padding:13px 12px;font-size:9px}.hero-note{margin-top:30px}.hero-bottom{bottom:20px}}
 @media(max-width:380px){.hero{min-height:820px}.hero-actions .button{flex-basis:100%}.hero-art{right:-35px;bottom:88px}}
+
+/* Neutral status treatment: FIRST PROJECT is not a live-launch claim. */
+.status-first{color:var(--gold2)}

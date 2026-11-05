@@ -26,18 +26,18 @@ A documentation milestone does not mean the corresponding operational control is
 
 ## 3. Phase Two — $MYBIE Launch Preparation
 
-**Objective:** Prepare the first project for a transparent and carefully reviewed launch on Solana.
+**Objective:** Prepare the first project for a transparent and carefully reviewed launch on Solana, with Pump.fun as the planned launch platform.
 
 | Workstream | Current status | Required evidence before completion |
 | --- | --- | --- |
-| Launch platform and process | Pending verification | Confirm final platform, configuration, and launch procedure. |
+| Launch platform and process | Planned — Pump.fun | Pump.fun is the intended launch platform. Confirm the final configuration and launch procedure before launch; no launch is claimed here. |
 | Token distribution approach | Pending verification | Confirm actual settings and ensure they match published commitments. |
 | Project wallet structure and security | Pending verification | Document wallet purposes, authorized control, backup, and recovery arrangements without publishing secrets. |
 | Technical configuration review | Pending verification | Verify mint details, authorities, supply, and other applicable settings. |
 | Public launch information | Pending verification | Publish only confirmed details and relevant explorer links. |
 | Operational incident readiness | In progress (documentation) | Security procedures are documented; contact paths and recovery steps still need practical testing. |
 
-All public distribution commitments must match the actual launch configuration and on-chain activity. Do not describe them as verified until evidence is available.
+Pump.fun is the planned launch platform for $MYBIE. The project is not described as launched until the launch transaction and token details have been independently checked and published. All public distribution commitments must match the actual launch configuration and on-chain activity. Do not describe them as verified until evidence is available.
 
 ## 4. Phase Three — Launch and Transparency
 
