@@ -17,21 +17,3 @@ const original=new Map();selectors.forEach(s=>{const el=document.querySelector(s
 function setLanguage(code){const values=code==="en"?null:T[code];selectors.forEach((s,i)=>{const el=document.querySelector(s);if(!el)return;el.innerHTML=values&&values[i]!==undefined?values[i]:original.get(s)||el.innerHTML;});document.documentElement.lang=code==="zh"?"zh-CN":code;const titles={en:"MYBIE SWORD — One House. Multiple Sword Coins. One Standard.",id:"MYBIE SWORD — Satu Rumah. Beragam Sword Coin. Satu Standar.",zh:"MYBIE SWORD — 一个家园。多个 Sword Coin。一个标准。",es:"MYBIE SWORD — Un hogar. Múltiples Sword Coins. Un estándar.",tr:"MYBIE SWORD — Tek bir çatı. Birden fazla Sword Coin. Tek standart.",vi:"MYBIE SWORD — Một mái nhà. Nhiều Sword Coin. Một tiêu chuẩn.",pt:"MYBIE SWORD — Uma casa. Várias Sword Coins. Um padrão.",ko:"MYBIE SWORD — 하나의 울타리. 여러 Sword Coin. 하나의 기준.",ja:"MYBIE SWORD — ひとつの家。複数の Sword Coin。ひとつの基準。",ru:"MYBIE SWORD — Один дом. Несколько Sword Coin. Единый стандарт."};document.title=titles[code]||titles.en;if(language)language.value=code;const meta=document.querySelector('meta[name="description"]');if(meta)meta.content=code==="en"?"MYBIE SWORD is an evolving project ecosystem guided by security, transparency, honesty, responsibility, and accountability.":(values?.[5]||titles[code]);try{localStorage.setItem("mybie-language",code);}catch(e){}}
 if(language){language.addEventListener("change",()=>setLanguage(language.value));let saved="en";try{saved=localStorage.getItem("mybie-language")||"en";}catch(e){}setLanguage(T[saved]||saved==="en"?saved:"en");}
 const year=document.querySelector("#year");if(year)year.textContent=new Date().getFullYear();
-
-/* Keep the hero brand headline and calls-to-action consistent across language changes. */
-(function(){
-  function applyHeroIdentity(){
-    const eyebrow=document.querySelector(".hero-copy .eyebrow");
-    const heading=document.querySelector(".hero h1");
-    const tagline=document.querySelector(".hero-tagline");
-    const primary=document.querySelector(".hero-actions .button-gold");
-    const secondary=document.querySelector(".hero-actions .button-quiet");
-    if(eyebrow)eyebrow.innerHTML='<span class="pulse"></span> THE MYBIE SWORD ECOSYSTEM';
-    if(heading)heading.innerHTML='MYBIE<br><em>SWORD</em>';
-    if(tagline)tagline.textContent='More Memes. Bigger Dreams.';
-    if(primary)primary.innerHTML='Join Community <span>↗</span>';
-    if(secondary)secondary.textContent='Read Whitepaper ↗';
-  }
-  applyHeroIdentity();
-  if(language)language.addEventListener("change",applyHeroIdentity);
-})();
